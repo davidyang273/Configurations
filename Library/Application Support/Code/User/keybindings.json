@@ -1,0 +1,32 @@
+[
+  {
+    "key": "cmd+alt+c",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
+  },
+  {
+      "key": "cmd+shift+alt+c",
+      "command": "copyFilePath",
+      "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "center-editor-window.center",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+p",
+    "command": "macros.fileSearchWord",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+]
