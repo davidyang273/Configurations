@@ -1,0 +1,2 @@
+[aws]
+sso.profile = AWSSSO_PAY_VIBE_PROD

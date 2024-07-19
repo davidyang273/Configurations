@@ -1,0 +1,1141 @@
+[36m⠋[0m [0mFetching pods in [0;1mpayments-sandbox[0m namespace[K
+[1A[36m⠙[0m[1B[1A[36m⠹[0m[1B[1A[36m⠸[0m[1B[1A[36m⠼[0m[1B[1A[35m⠴[0m[1B[1A[35m⠦[0m[1B[1A[35m⠧[0m[1B[1A[35m⠇[0m[1B[1A[35m⠏[0m[1B[1A[32m✓[0m [0mFetching pods in [0;1mpayments-sandbox[0m namespace[K[1B[73551] [0;94m?[0m Pods matching [0;1mpay-api[0m [33m(Choose with ↑ ↓ ⏎, filter with 'f')[0m
+[73551] [?25l[73551] [0;94m> 1. pay-api-6d9549c845-49gnk[K[0m
+[73551] [0m  2. pay-api-6d9549c845-lbrpl[K
+[73551] [1A[1G[73551] [1A[1G[73551]                                                                                                                                                                                                                      
+[73551]                                                                                                                                                                                                                      
+[73551] [1A[1G[73551] [1A[1G[73551] [?25h[73551] [1A[1G[K[73551] [1A[1G
+[73551] [0;94m?[0m Pods matching [0;1mpay-api[0m (You chose: [0;3mpay-api-6d9549c845-49gnk[0m)
+[73551] [?2004hpay-api-6d9549c845-49gnk:/pay# [73551] A[73551] c[73551] c[73551] o[73551] [K[73551] [K[73551] [K[73551] [K[73551] T[73551] r[73551] a[73551] n[73551] s[73551] f[73551] e[73551] r[73551] .[73551] w[73551] h[73551] e[73551] r[73551] e[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] [K[73551] A[73551] c[73551] c[73551] o[73551] u[73551] n[73551] t[73551] .[73551] a[73551] l[73551] l[73551] 
+[?2004l[73551] bash: Account.all: command not found
+[?2004hpay-api-6d9549c845-49gnk:/pay# [73551] r[73551] a[73551] i[73551] l[73551] s[73551]  [73551] c[73551] 
+[?2004l[73551] I, [2024-07-19T20:18:14.091913 #1093]  INFO -- ddtrace: [ddtrace] DATADOG CONFIGURATION - CORE - {"date":"2024-07-19T20:18:14Z","os_name":"x86_64-pc-linux-musl","version":"1.23.3","lang":"ruby","lang_version":"3.3.0","env":"sandbox","service":"pay","dd_version":"03420b477fd23cbc693c8d6bb7ff0d1a8482a557","debug":false,"tags":"env:sandbox,version:03420b477fd23cbc693c8d6bb7ff0d1a8482a557","runtime_metrics_enabled":false,"vm":"ruby-3.3.0","health_metrics_enabled":false,"profiling_enabled":false}
+[73551] [LDClient] Initializing stream connection
+[73551] Connecting to event stream at https://stream.launchdarkly.com/all
+[73551] [LDClient] Stream initialized
+[73551] I, [2024-07-19T20:18:15.338831 #1093]  INFO -- ddtrace: [ddtrace] DATADOG CONFIGURATION - TRACING - {"enabled":true,"agent_url":"http://10.226.75.164:8126?timeout=30","analytics_enabled":false,"sample_rate":null,"sampling_rules":null,"integrations_loaded":"rails@7.1.3.4,active_record@7.1.3.4,aws@3.201.1,redis@0.22.2,http@3.3.0,httpx@1.3.0,sidekiq@7.3.0","partial_flushing_enabled":false,"priority_sampling_enabled":false,"integration_rails_analytics_enabled":"","integration_rails_analytics_sample_rate":"1.0","integration_rails_enabled":"true","integration_rails_service_name":"pay","integration_rails_distributed_tracing":"true","integration_rails_request_queuing":"false","integration_rails_exception_controller":"","integration_rails_middleware":"true","integration_rails_middleware_names":"false","integration_rails_template_base_path":"views/","integration_active_record_analytics_enabled":"false","integration_active_record_analytics_sample_rate":"1.0","integration_active_record_enabled":"true","integration_active_record_service_name":"pay-postgres","integration_aws_analytics_enabled":"false","integration_aws_analytics_sample_rate":"1.0","integration_aws_enabled":"true","integration_aws_service_name":"pay-aws","integration_aws_peer_service":"","integration_redis_analytics_enabled":"false","integration_redis_analytics_sample_rate":"1.0","integration_redis_enabled":"true","integration_redis_service_name":"pay-redis","integration_redis_command_args":"false","integration_redis_peer_service":"","integration_http_analytics_enabled":"false","integration_http_analytics_sample_rate":"1.0","integration_http_enabled":"true","integration_http_service_name":"pay-http","integration_http_distributed_tracing":"true","integration_http_error_status_codes":"400...600","integration_http_peer_service":"","integration_http_split_by_domain":"false","integration_httpx_analytics_enabled":"false","integration_httpx_analytics_sample_rate":"1.0","integration_httpx_enabled":"true","integration_httpx_service_name":"pay-httpx","integration_httpx_distributed_tracing":"true","integration_httpx_split_by_domain":"false","integration_httpx_error_handler":"#\u003cProc:0x00007fb2fcce8270 /usr/local/bundle/gems/httpx-1.3.0/lib/httpx/adapters/datadog.rb:216 (lambda)\u003e","integration_sidekiq_analytics_enabled":"false","integration_sidekiq_analytics_sample_rate":"1.0","integration_sidekiq_enabled":"true","integration_sidekiq_service_name":"pay-sidekiq","integration_sidekiq_tag_args":"true","integration_sidekiq_client_service_name":"pay-sidekiq-client","integration_sidekiq_error_handler":"#\u003cProc:0x00007fb2fdcb05b8 /usr/local/bundle/gems/ddtrace-1.23.3/lib/datadog/tracing/span_operation.rb:338\u003e","integration_sidekiq_quantize":"{}","integration_sidekiq_distributed_tracing":"true"}
+[73551] Loading production environment (Rails 7.1.3.4)
+[73551] [?2004h[73551] [1G▽[6n[73551] [1G[K[6n[73551] [?25l[1G[K[1G[0mirb(main):001> [0m[?25h[16G[73551] [?25l[73551] [16G[0m[34m[1m[4mA[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mAc[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mAcc[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mAcco[0m[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mAccou[0m[0m[?25h[21G[73551] [?25l[73551] [16G[0m[34m[1m[4mAccoun[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m[0m[?25h[23G[73551] [?25l[1G[0mirb(main):001* [0m[16G[0m[34m[1m[4mAccount[0m.[0m[?25h[24G[73551] [?25l[1G[0mirb(main):001> [0m[16G[0m[34m[1m[4mAccount[0m.a[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.al[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.all[0m[?25h[27G[73551] [1G[Kirb(main):001> [34m[1m[4mAccount[0m.all
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<Account:0x00007fb2f0d62450[0m[m
+  id: [34m[1m3[0m,[m
+  name: [31m[1m"[0m[31mNeon Moose[0m[31m[1m"[0m,[m
+  created_at: Fri, 03 Nov 2023 20:11:32.765346000 UTC +00:00,[m
+  updated_at: Fri, 03 Nov 2023 20:11:32.765346000 UTC +00:00,[m
+  allow_manual_disbursements: [36m[1mtrue[0m,[m
+  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<Account:0x00007fb2fd175518[0m[m
+  id: [34m[1m4[0m,[m
+  name: [31m[1m"[0m[31mEmployment of Record[0m[31m[1m"[0m,[m
+  created_at: Fri, 03 Nov 2023 20:11:44.302277000 UTC +00:00,[m
+  updated_at: Mon, 20 Nov 2023 20:37:41.991133000 UTC +00:00,[m
+  allow_manual_disbursements: [36m[1mfalse[0m,[m
+  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<Account:0x00007fb2fd1753d8[0m[m
+  id: [34m[1m6[0m,[m
+  name: [31m[1m"[0m[31mBilling Service[0m[31m[1m"[0m,[m
+  created_at: Thu, 14 Dec 2023 20:24:26.006104000 UTC +00:00,[m
+  updated_at: Thu, 14 Dec 2023 20:24:26.006104000 UTC +00:00,[m
+  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd175298[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m7[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mMark test[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Wed, 20 Dec 2023 18:26:37.415101000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Wed, 20 Dec 2023 18:26:37.415101000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd175158[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m8[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mPhoenix[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Thu, 25 Jan 2024 16:53:24.524117000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 25 Jan 2024 16:53:24.524117000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd175018[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mNoah Lively[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Thu, 11 Apr 2024 15:44:02.012625000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 11 Apr 2024 15:44:02.012625000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd174ed8[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m5[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mInternational Contractors (old-do not use)[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Fri, 03 Nov 2023 20:12:01.108635000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Mon, 22 Apr 2024 16:48:44.242458000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd174d98[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m9[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mJustworks Administrative Services (Inlt ConPlat)[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 02 Apr 2024 20:20:06.130158000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Mon, 22 Apr 2024 16:49:33.110974000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd174c58[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m1[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mClockwork staging[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 12 Sep 2023 20:36:24.912970000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Tue, 23 Apr 2024 16:11:08.582305000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mwells_fargo[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<Account:0x00007fb2fd174b18[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m11[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  name: [31m[1m"[0m[31mAlice Kallaugher[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Thu, 30 May 2024 15:59:29.550733000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 30 May 2024 15:59:29.550733000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  allow_manual_disbursements: [36m[1mfalse[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  default_ach_company_name: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [31m[1m"[0m[31m...[0m[31m[1m"[0m][m
+:[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):002> [0m[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.all[0m[?25h[27G[73551] [?25l[16G[0mexit[0m[20G[K[?25h[20G[73551] [?25l[16G[0mq[0m[17G[K[?25h[17G[73551] [?25l[16G[0mexit[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.all[0m[?25h[27G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [?25l[16G[0ma [0m[?25h[18G[73551] [?25l[1G[0mirb(main):002* [0m[16G[0ma =[0m[?25h[19G[73551] [?25l[16G[0ma = [0m[?25h[20G[73551] [?25l[1G[0mirb(main):002> [0m[16G[0ma = [34m[1m[4mA[0m[0m[?25h[21G[73551] [?25l[16G[0ma = [34m[1m[4mAc[0m[0m[?25h[22G[73551] [?25l[16G[0ma = [34m[1m[4mAcc[0m[0m[?25h[23G[73551] [?25l[73551] [16G[0ma = [34m[1m[4mAcco[0m[0m[?25h[24G[73551] [?25l[16G[0ma = [34m[1m[4mAccou[0m[0m[?25h[25G[73551] [?25l[16G[0ma = [34m[1m[4mAccoun[0m[0m[?25h[26G[73551] [?25l[73551] [16G[0ma = [34m[1m[4mAccount[0m[0m[?25h[27G[73551] [?25l[1G[0mirb(main):002* [0m[16G[0ma = [34m[1m[4mAccount[0m.[0m[?25h[28G[73551] [?25l[1G[0mirb(main):002> [0m[16G[0ma = [34m[1m[4mAccount[0m.a[0m[?25h[29G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.al[0m[?25h[30G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.all[0m[?25h[31G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.al[0m[73551] [30G[K[?25h[30G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.a[0m[29G[K[?25h[29G[73551] [?25l[1G[0mirb(main):002* [0m[16G[0ma = [34m[1m[4mAccount[0m.[0m[28G[K[?25h[28G[73551] [?25l[1G[0mirb(main):002> [0m[16G[0ma = [34m[1m[4mAccount[0m[0m[27G[K[?25h[27G[73551] [?25l[16G[0ma = [34m[1m[4mAccoun[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[0ma = [34m[1m[4mAccou[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0ma = [34m[1m[4mAcco[0m[0m[24G[K[?25h[24G[73551] [?25l[16G[0ma = [34m[1m[4mAcc[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0ma = [34m[1m[4mAc[0m[0m[22G[K[?25h[22G[73551] [?25l[16G[0ma = [34m[1m[4mAcc[0m[0m[?25h[23G[73551] [?25l[16G[0ma = [34m[1m[4mAcco[0m[0m[?25h[24G[73551] [?25l[16G[0ma = [34m[1m[4mAccou[0m[0m[?25h[25G[73551] [?25l[16G[0ma = [34m[1m[4mAccoun[0m[0m[?25h[26G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m[0m[?25h[27G[73551] [?25l[1G[0mirb(main):002* [0m[16G[0ma = [34m[1m[4mAccount[0m.[0m[?25h[28G[73551] [?25l[1G[0mirb(main):002> [0m[16G[0ma = [34m[1m[4mAccount[0m.f[0m[?25h[29G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.fi[0m[?25h[30G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.fin[0m[?25h[31G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.find[0m[?25h[32G[73551] [?25l[1G[0mirb(main):002* [0m[16G[0ma = [34m[1m[4mAccount[0m.find([0m[?25h[33G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.find([34m[1m6[0m[0m[?25h[34G[73551] [?25l[1G[0mirb(main):002> [0m[16G[0ma = [34m[1m[4mAccount[0m.find([34m[1m6[0m)[0m[?25h[35G[73551] [1G[Kirb(main):002> a = [34m[1m[4mAccount[0m.find([34m[1m6[0m)
+[1G[?2004l[73551] => [32m...[0m
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):003> [0m[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [1G[Kirb(main):003> a
+[1G[?2004l[73551] => 
+[32m#<Account:0x00007fb3044d3348[0m
+ id: [34m[1m6[0m,
+ name: [31m[1m"[0m[31mBilling Service[0m[31m[1m"[0m,
+ created_at: Thu, 14 Dec 2023 20:24:26.006104000 UTC +00:00,
+ updated_at: Thu, 14 Dec 2023 20:24:26.006104000 UTC +00:00,
+ allow_manual_disbursements: [36m[1mfalse[0m,
+ bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,
+ default_ach_company_name: [36m[1mnil[0m[32m>[0m
+[73551] [?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):004> [0m[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [?25l[1G[0mirb(main):004* [0m[16G[0ma.[0m[?25h[18G[73551] [?25l[1G[0mirb(main):004> [0m[16G[0ma.p[0m[?25h[19G[73551] [?25l[73551] [16G[0ma.pa[0m[?25h[20G[73551] [?25l[16G[0ma.pay[0m[?25h[21G[73551] [?25l[16G[0ma.paym[0m[?25h[22G[73551] [?25l[16G[0ma.payme[0m[?25h[23G[73551] [?25l[16G[0ma.paymen[0m[?25h[24G[73551] [?25l[16G[0ma.payment[0m[?25h[25G[73551] [?25l[16G[0ma.payment_[0m[?25h[26G[73551] [?25l[16G[0ma.payment_t[0m[?25h[27G[73551] [?25l[16G[0ma.payment_tr[0m[?25h[28G[73551] [?25l[16G[0ma.payment_tra[0m[?25h[29G[73551] [?25l[16G[0ma.payment_tran[0m[?25h[30G[73551] [?25l[16G[0ma.payment_trans[0m[?25h[31G[73551] [?25l[16G[0ma.payment_transa[0m[?25h[32G[73551] [?25l[16G[0ma.payment_transac[0m[?25h[33G[73551] [?25l[16G[0ma.payment_transact[0m[?25h[34G[73551] [?25l[16G[0ma.payment_transacti[0m[?25h[35G[73551] [?25l[16G[0ma.payment_transactio[0m[?25h[36G[73551] [?25l[16G[0ma.payment_transaction[0m[?25h[37G[73551] [?25l[16G[0ma.payment_transactions[0m[?25h[38G[73551] [1G[K[73551] irb(main):004> a.payment_transactions
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2f3e9ab58[0m[m
+  id: [34m[1m818[0m,[m
+  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m100[0m,[m
+  payment_method_id: [34m[1m459348[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m793[0m,[m
+  created_at: Tue, 20 Feb 2024 02:54:40.697282000 UTC +00:00,[m
+  updated_at: Tue, 20 Feb 2024 02:54:40.697282000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mcreated[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01HQ26ZP6WEZB6HRWY5HWFCCG3[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m1[0m,[m
+  post_at: [36m[1mnil[0m,[m
+  account_id: [34m[1m6[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K[?1l>[?2004h[6n[73551] [?25l[1G[K[1G[0mirb(main):005> [0m[?25h[16G[73551] [?25l[16G[0ma.payment_transactions[0m[?25h[38G[73551] [?25l[1G[0mirb(main):005* [0m[16G[0ma.payment_transactions.[0m[?25h[39G[73551] [?25l[1G[0mirb(main):005> [0m[16G[0ma.payment_transactions.l[0m[?25h[40G[73551] [?25l[16G[0ma.payment_transactions.la[0m[?25h[41G[73551] [?25l[16G[0ma.payment_transactions.las[0m[?25h[42G[73551] [?25l[16G[0ma.payment_transactions.last[0m[?25h[43G[73551] [?25l[1G[0mirb(main):005* [0m[16G[0ma.payment_transactions.last([0m[?25h[44G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m1[0m[0m[?25h[45G[73551] [?25l[1G[0mirb(main):005> [0m[16G[0ma.payment_transactions.last([34m[1m1[0m)[0m[?25h[46G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m1[0m)[31m[7m)[0m[0m[?25h[47G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m1[0m)[0m[46G[K[?25h[46G[73551] [?25l[1G[0mirb(main):005* [0m[16G[0ma.payment_transactions.last([34m[1m1[0m[0m[45G[K[?25h[45G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m[0m[?25h[46G[73551] [?25l[1G[0mirb(main):005> [0m[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[?25h[47G[73551] [1G[Kirb(main):005> a.payment_transactions.last([34m[1m10[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2f2bc21c0[0m[m
+  id: [34m[1m833[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m100[0m,[m
+  payment_method_id: [34m[1m459510[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m808[0m,[m
+  created_at: Fri, 23 Feb 2024 21:24:29.740604000 UTC +00:00,[m
+  updated_at: Fri, 23 Feb 2024 21:30:02.954646000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mposting_failed[0m[31m[1m"[0m,[m
+  posting_at: Fri, 23 Feb 2024 21:30:00.672367000 UTC +00:00,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01HQBXNZMWSMKGPP8HRRD4SXPT[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m1[0m,[m
+  post_at: Fri, 23 Feb 2024 21:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m6[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: Fri, 23 Feb 2024 21:30:02.954812000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f2bc2800[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m834[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m100[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m459522[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):006> [0m[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mT[0m[0m[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0mt[0m[?25h[17G[73551] [?25l[16G[0mtr[0m[?25h[18G[73551] [?25l[16G[0mtr [0m[?25h[19G[73551] [?25l[1G[0mirb(main):006* [0m[16G[0mtr =[0m[?25h[20G[73551] [?25l[16G[0mtr = [0m[?25h[21G[73551] [?25l[1G[0mirb(main):006> [0m[16G[0mtr = [34m[1m[4mT[0m[0m[?25h[22G[73551] [?25l[16G[0mtr = [34m[1m[4mTr[0m[0m[?25h[23G[73551] [?25l[16G[0mtr = [34m[1m[4mTra[0m[0m[?25h[24G[73551] [?25l[16G[0mtr = [34m[1m[4mTran[0m[0m[?25h[25G[73551] [?25l[16G[0mtr = [34m[1m[4mTrans[0m[0m[?25h[26G[73551] [?25l[16G[0mtr = [34m[1m[4mTransf[0m[0m[?25h[27G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfe[0m[0m[?25h[28G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m[0m[?25h[29G[73551] [?25l[1G[0mirb(main):006* [0m[16G[0mtr = [34m[1m[4mTransfer[0m.[0m[?25h[30G[73551] [?25l[1G[0mirb(main):006> [0m[16G[0mtr = [34m[1m[4mTransfer[0m.f[0m[?25h[31G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.fi[0m[?25h[32G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.fin[0m[?25h[33G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find[0m[?25h[34G[73551] [?25l[73551] [16G[0mtr = [34m[1m[4mTransfer[0m.find_[0m[?25h[35G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_b[0m[?25h[36G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by[0m[73551] [?25h[37G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_[0m[?25h[38G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_p[0m[?25h[39G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_pu[0m[?25h[40G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_pub[0m[?25h[41G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_publ[0m[?25h[42G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_publi[0m[?25h[43G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public[0m[?25h[44G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_[0m[?25h[45G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_i[0m[?25h[46G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_id[0m[?25h[47G[73551] [?25l[1G[0mirb(main):006* [0m[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_id([0m[?25h[48G[73551] [?25l[1G[0mirb(main):006" [0m[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_id([31m[1m"[0m[31m[0m[0m[?25h[49G[73551] [?25l[73551] 
+[1A[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_id([31m[1m"[0m[31mtrnsfr_01J36517HF2K37TXR5NHMJAYA[0m[73551] [1B[1G[K[1G[0m[31m5[0m[0m[?25h[2G[73551] [?25l[1A[1G[0mirb(main):006* [0m[1B[1G[0m[31m5[0m[31m[1m"[0m[0m[?25h[3G[73551] [?25l[1A[1G[0mirb(main):006> [0m[1B[1G[0m[31m5[0m[31m[1m"[0m)[0m[?25h[4G[73551] [1A[1G[1B[K[1A[73551] [Kirb(main):006> tr = [34m[1m[4mTransfer[0m.find_by_public_id([31m[1m"[0m[31mtrnsfr_01J36517HF2K37TXR5NHMJAYA5[0m[31m[1m"[0m)
+[1G[?2004l[73551] => [32m...[0m
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):007> [0m[?25h[16G[73551] [?25l[16G[0mt[0m[?25h[17G[73551] [?25l[16G[0mtr[0m[?25h[18G[73551] [1G[Kirb(main):007> tr
+[1G[?2004l[73551] => 
+[32m#<Transfer:0x00007fb2f38c4af8[0m
+ id: [34m[1m683[0m,
+ status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,
+ created_at: Fri, 19 Jul 2024 18:45:53.918155000 UTC +00:00,
+ updated_at: Fri, 19 Jul 2024 18:50:01.701094000 UTC +00:00,
+ succeeded_at: [36m[1mnil[0m,
+ canceled_at: Fri, 19 Jul 2024 18:50:01.691860000 UTC +00:00,
+ metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+ strategy: [31m[1m"[0m[31mcollection_only_ach[0m[31m[1m"[0m,
+ ulid: [31m[1m"[0m[31mtrnsfr_01J36517HF2K37TXR5NHMJAYA5[0m[31m[1m"[0m,
+ account_id: [34m[1m9[0m,
+ settlement_date: [36m[1mnil[0m,
+ cancel_available_until: Fri, 19 Jul 2024 19:30:00.000000000 UTC +00:00,
+ in_progress_at: [36m[1mnil[0m,
+ abandoned_at: [36m[1mnil[0m[32m>[0m
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):008> [0m[?25h[16G[73551] [?25l[16G[0mtr[0m[?25h[18G[73551] [?25l
+[1A[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_id([31m[1m"[0m[31mtrnsfr_01J36517HF2K37TXR5NHMJAYA[0m[1B[1G[K[1G[0m[31m5[0m[31m[1m"[0m)[0m[?25h[4G[73551] [?25l[1A[16G[0mtr[0m[18G[K[1B[1G[K[?25h[18G[1A[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0mtr[0m[?25h[18G[73551] [?25l[16G[0mtr = [34m[1m[4mTransfer[0m.find_by_public_id([31m[1m"[0m[31mtrnsfr_01J36517HF2K37TXR5NHMJAYA[0m[1B[1G[K[1G[0m[31m5[0m[31m[1m"[0m)[0m[?25h[4G[73551] [?25l[1A[16G[0mtr[0m[18G[K[1B[1G[K[?25h[18G[1A[73551] [?25l[16G[0mt[0m[17G[K[?25h[17G[73551] [?25l[16G[0mtr[0m[?25h[18G[73551] [?25l[1G[0mirb(main):008* [0m[16G[0mtr.[0m[?25h[19G[73551] [?25l[1G[0mirb(main):008> [0m[16G[0mtr[0m[18G[K[?25h[18G[73551] [?25l[16G[0mt[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [16G[73551] [16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [?25l[16G[0ma [0m[?25h[18G[73551] [?25l[1G[0mirb(main):008* [0m[16G[0ma =[0m[?25h[19G[73551] [?25l[16G[0ma = [0m[?25h[20G[73551] [?25l[1G[0mirb(main):008> [0m[16G[0ma = [34m[1m[4mA[0m[0m[?25h[21G[73551] [?25l[16G[0ma = [34m[1m[4mAc[0m[0m[?25h[22G[73551] [?25l[16G[0ma = [34m[1m[4mAcc[0m[0m[?25h[23G[73551] [?25l[16G[0ma = [34m[1m[4mAcco[0m[0m[?25h[24G[73551] [?25l[16G[0ma = [34m[1m[4mAccou[0m[0m[?25h[25G[73551] [?25l[16G[0ma = [34m[1m[4mAccoun[0m[0m[?25h[26G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m[0m[?25h[27G[73551] [?25l[1G[0mirb(main):008* [0m[16G[0ma = [34m[1m[4mAccount[0m.[0m[?25h[28G[73551] [?25l[1G[0mirb(main):008> [0m[16G[0ma = [34m[1m[4mAccount[0m.f[0m[?25h[29G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.fi[0m[?25h[30G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.fin[0m[?25h[31G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.find[0m[?25h[32G[73551] [?25l[1G[0mirb(main):008* [0m[73551] [16G[0ma = [34m[1m[4mAccount[0m.find([0m[?25h[33G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.find([34m[1m9[0m[0m[?25h[34G[73551] [?25l[1G[0mirb(main):008> [0m[16G[0ma = [34m[1m[4mAccount[0m.find([34m[1m9[0m)[0m[?25h[35G[73551] [1G[Kirb(main):008> a = [34m[1m[4mAccount[0m.find([34m[1m9[0m)
+[1G[?2004l[73551] => [32m...[0m
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):009> [0m[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [1G[Kirb(main):009> a
+[1G[?2004l[73551] => 
+[32m#<Account:0x00007fb2f04e2aa0[0m
+ id: [34m[1m9[0m,
+ name: [31m[1m"[0m[31mJustworks Administrative Services (Inlt ConPlat)[0m[31m[1m"[0m,
+ created_at: Tue, 02 Apr 2024 20:20:06.130158000 UTC +00:00,
+ updated_at: Mon, 22 Apr 2024 16:49:33.110974000 UTC +00:00,
+ allow_manual_disbursements: [36m[1mfalse[0m,
+ bank_processor: [31m[1m"[0m[31mjpm[0m[31m[1m"[0m,
+ default_ach_company_name: [36m[1mnil[0m[32m>[0m
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):010> [0m[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.find([34m[1m9[0m)[0m[?25h[35G[73551] [?25l[1G[0mirb(main):010* [0m[16G[0ma = [34m[1m[4mAccount[0m.find([34m[1m9[0m[0m[34G[K[?25h[34G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.find([0m[33G[K[?25h[33G[73551] [?25l[1G[0mirb(main):010> [0m[16G[0ma = [34m[1m[4mAccount[0m.find[0m[32G[K[?25h[32G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.fin[0m[31G[K[?25h[31G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.fi[0m[30G[K[?25h[30G[73551] [?25l[16G[0ma = [34m[1m[4mAccount[0m.f[0m[29G[K[?25h[29G[73551] [?25l[1G[0mirb(main):010* [0m[16G[0ma = [34m[1m[4mAccount[0m.[0m[28G[K[?25h[28G[73551] [?25l[1G[0mirb(main):010> [0m[16G[0ma = [34m[1m[4mAccount[0m[0m[27G[K[?25h[27G[73551] [?25l[16G[0ma = [34m[1m[4mAccoun[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[0ma = [34m[1m[4mAccou[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0ma = [34m[1m[4mAcco[0m[0m[24G[K[?25h[24G[73551] [?25l[16G[0ma = [34m[1m[4mAcc[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0ma = [34m[1m[4mAc[0m[0m[22G[K[?25h[22G[73551] [?25l[16G[0ma = [34m[1m[4mA[0m[0m[21G[K[?25h[21G[73551] [?25l[1G[0mirb(main):010* [0m[16G[0ma = [0m[20G[K[?25h[20G[73551] [?25l[16G[0ma =[0m[19G[K[?25h[19G[73551] [?25l[1G[0mirb(main):010> [0m[16G[0ma [0m[18G[K[?25h[18G[73551] [?25l[16G[0ma[0m[17G[K[?25h[17G[73551] [?25l[1G[0mirb(main):010* [0m[16G[0ma.[0m[?25h[18G[73551] [?25l[1G[0mirb(main):010> [0m[16G[0ma.p[0m[?25h[19G[73551] [?25l[16G[0ma.pa[0m[?25h[20G[73551] [?25l[16G[0ma.pay[0m[?25h[21G[73551] [?25l[16G[0ma.paym[0m[?25h[22G[73551] [?25l[16G[0ma.payme[0m[?25h[23G[73551] [?25l[16G[0ma.paymen[0m[?25h[24G[73551] [?25l[16G[0ma.payment[0m[?25h[25G[73551] [?25l[16G[0ma.payment_[0m[?25h[26G[73551] [?25l[16G[0ma.payment_t[0m[?25h[27G[73551] [?25l[16G[0ma.payment_tr[0m[?25h[28G[73551] [?25l[16G[0ma.payment_tra[0m[?25h[29G[73551] [?25l[16G[0ma.payment_tran[0m[?25h[30G[73551] [?25l[16G[0ma.payment_tranas[0m[?25h[32G[73551] [?25l[16G[0ma.payment_tranasc[0m[?25h[33G[73551] [?25l[16G[0ma.payment_tranasct[0m[?25h[34G[73551] [?25l[16G[0ma.payment_tranascti[0m[?25h[35G[73551] [?25l[16G[0ma.payment_tranasctio[0m[?25h[36G[73551] [?25l[16G[0ma.payment_tranasction[0m[?25h[37G[73551] [?25l[16G[0ma.payment_tranasctions[0m[?25h[38G[73551] [1G[Kirb(main):010> a.payment_tranasctions
+[1G[?2004l[73551] (irb):10:in `<main>': [1mundefined method `payment_tranasctions' for an instance of Account ([1;4mNoMethodError[m[1m)[m
+[1mDid you mean?  payment_transactions[m
+[1m               payment_transaction_ids[m
+[?2004h[6n[73551] [?25l[1G[K[1G[0mirb(main):011> [0m[?25h[16G[73551] [?25l[16G[0ma.payment_tranasctions[0m[?25h[38G[73551] [?25l[16G[0ma.payment_tranasction[0m[37G[K[?25h[37G[73551] [?25l[16G[0ma.payment_tranasctio[0m[36G[K[?25h[36G[73551] [?25l[16G[0ma.payment_tranascti[0m[35G[K[?25h[35G[73551] [?25l[16G[0ma.payment_tranasct[0m[34G[K[?25h[34G[73551] [?25l[16G[0ma.payment_tranasc[0m[33G[K[?25h[33G[73551] [?25l[16G[0ma.payment_tranas[0m[32G[K[?25h[32G[73551] [?25l[16G[0ma.payment_trana[0m[31G[K[?25h[31G[73551] [?25l[16G[0ma.payment_tran[0m[30G[K[?25h[30G[73551] [?25l[16G[0ma.payment_trans[0m[?25h[31G[73551] [?25l[16G[0ma.payment_transa[0m[?25h[32G[73551] [?25l[16G[0ma.payment_transac[0m[?25h[33G[73551] [?25l[16G[0ma.payment_transact[0m[?25h[34G[73551] [?25l[16G[0ma.payment_transacti[0m[?25h[35G[73551] [?25l[16G[0ma.payment_transactio[0m[?25h[36G[73551] [?25l[16G[0ma.payment_transaction[0m[?25h[37G[73551] [?25l[16G[0ma.payment_transactions[0m[?25h[38G[73551] [1G[Kirb(main):011> a.payment_transactions
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2fd172598[0m[m
+  id: [34m[1m3440[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m3068[0m,[m
+  created_at: Fri, 19 Jul 2024 18:45:53.757774000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 18:50:01.630681000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: Fri, 19 Jul 2024 18:50:01.581334000 UTC +00:00,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36517J380E1NB0DF2GDHMES[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Fri, 19 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):012> [0m[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [?25l[16G[0ma.payment_transactions[0m[?25h[38G[73551] [1G[Kirb(main):012> a.payment_transactions
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2f04e20a0[0m[m
+  id: [34m[1m3440[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m3068[0m,[m
+  created_at: Fri, 19 Jul 2024 18:45:53.757774000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 18:50:01.630681000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: Fri, 19 Jul 2024 18:50:01.581334000 UTC +00:00,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36517J380E1NB0DF2GDHMES[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Fri, 19 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f04e1a60[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m2383[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460210[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m234[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Wed, 17 Apr 2024 19:41:47.081364000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Mon, 22 Apr 2024 16:05:00.401552000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: Mon, 22 Apr 2024 16:05:00.329390000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  canceled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mpayt_01HVPS8Q7ECNQS6HCZR7N7ED0C[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  post_at: Mon, 22 Apr 2024 16:00:01.754806000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  account_id: [34m[1m9[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K[?1l>[73551] [?2004h[6n[73551] [?25l[1G[K[73551] [1G[0mirb(main):013> [0m[?25h[16G[73551] [?25l[16G[0ma.payment_transactions[0m[?25h[38G[73551] [?25l[1G[0mirb(main):013* [0m[16G[0ma.payment_transactions.[0m[?25h[39G[73551] [?25l[1G[0mirb(main):013> [0m[16G[0ma.payment_transactions.l[0m[?25h[40G[73551] [?25l[16G[0ma.payment_transactions.la[0m[?25h[41G[73551] [?25l[16G[0ma.payment_transactions.las[0m[?25h[42G[73551] [?25l[16G[0ma.payment_transactions.last[0m[?25h[43G[73551] [?25l[1G[0mirb(main):013* [0m[16G[0ma.payment_transactions.last([0m[?25h[44G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m1[0m[0m[?25h[45G[73551] [?25l[1G[0mirb(main):013> [0m[16G[0ma.payment_transactions.last([34m[1m1[0m)[0m[?25h[46G[73551] [?25l[1G[0mirb(main):013* [0m[16G[0ma.payment_transactions.last([34m[1m1[0m[0m[45G[K[?25h[45G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m[0m[?25h[46G[73551] [?25l[1G[0mirb(main):013> [0m[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[?25h[47G[73551] [1G[Kirb(main):013> a.payment_transactions.last([34m[1m10[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2f81dba48[0m[m
+  id: [34m[1m3139[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m2775[0m,[m
+  created_at: Tue, 02 Jul 2024 15:16:19.767326000 UTC +00:00,[m
+  updated_at: Mon, 08 Jul 2024 16:00:00.878911000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+  posting_at: Tue, 02 Jul 2024 19:30:01.067940000 UTC +00:00,[m
+  posted_at: Tue, 02 Jul 2024 19:30:02.434778000 UTC +00:00,[m
+  succeeded_at: Mon, 08 Jul 2024 16:00:00.879092000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J1T0996KKKCP8KATWJ2F2SQV[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Tue, 02 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f81dc088[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m3140[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460210[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m335[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 02 Jul 2024 15:16:19.767326000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Mon, 08 Jul 2024 16:05:00.275229000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: Mon, 08 Jul 2024 16:05:00.230638000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  canceled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mpayt_01J1T0996XK2E708BPCCN7CM8Q[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  post_at: Mon, 08 Jul 2024 16:00:02.284459000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  account_id: [34m[1m9[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f81dc6c8[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m3219[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460211[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m2854[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Mon, 08 Jul 2024 15:01:02.480944000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 11 Jul 2024 16:00:00.260972000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: Mon, 08 Jul 2024 19:30:00.938843000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: Mon, 08 Jul 2024 19:30:02.593122000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: Thu, 11 Jul 2024 16:00:00.260982000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  canceled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mpayt_01J29DSKFSC4SHYKN00MDKA4DD[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  post_at: Mon, 08 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  account_id: [34m[1m9[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K[?1l>[73551] [?2004h[6n[73551] [?25l[1G[K[1G[0mirb(main):014> [0m[?25h[16G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[?25h[47G[73551] [46G[73551] [45G[73551] [44G[73551] [43G[73551] [?25l[16G[0ma.payment_transactions.las([34m[1m10[0m)[0m[46G[K[?25h[42G[73551] [?25l[16G[0ma.payment_transactions.la([34m[1m10[0m)[0m[45G[K[?25h[41G[73551] [?25l[16G[0ma.payment_transactions.l([34m[1m10[0m)[0m[44G[K[?25h[40G[73551] [?25l[16G[0ma.payment_transactions.([34m[1m10[0m)[0m[43G[K[?25h[39G[73551] [?25l[16G[0ma.payment_transactions.f([34m[1m10[0m)[0m[?25h[40G[73551] [?25l[16G[0ma.payment_transactions.fi([34m[1m10[0m)[0m[?25h[41G[73551] [?25l[16G[0ma.payment_transactions.fir([34m[1m10[0m)[0m[?25h[42G[73551] [?25l[16G[0ma.payment_transactions.firs([34m[1m10[0m)[0m[?25h[43G[73551] [?25l[16G[0ma.payment_transactions.first([34m[1m10[0m)[0m[?25h[44G[73551] [1G[Kirb(main):014> a.payment_transactions.first([34m[1m10[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb3044a4d90[0m[m
+  id: [34m[1m2219[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m2010[0m,[m
+  created_at: Mon, 15 Apr 2024 05:37:46.439951000 UTC +00:00,[m
+  updated_at: Thu, 18 Apr 2024 16:00:00.467711000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+  posting_at: Mon, 15 Apr 2024 19:30:01.667809000 UTC +00:00,[m
+  posted_at: Mon, 15 Apr 2024 19:30:02.851200000 UTC +00:00,[m
+  succeeded_at: Thu, 18 Apr 2024 16:00:00.467839000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01HVG45VM0Z4ZP47ERQP81Y5PE[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Mon, 15 Apr 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb3044a3850[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m2220[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460210[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m218[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Mon, 15 Apr 2024 05:37:46.439951000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 18 Apr 2024 16:05:00.464121000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: Thu, 18 Apr 2024 16:05:00.461484000 UTC +00:00,[m
+:[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):015> [0m[?25h[16G[73551] [?25l[16G[0ma.payment_transactions.first([34m[1m10[0m)[0m[?25h[48G[73551] [47G[73551] [46G[73551] [47G[73551] [48G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.first([34m[1m10[0m[0m[47G[K[?25h[47G[73551] [?25l[16G[0ma.payment_transactions.first([34m[1m1[0m[0m[46G[K[?25h[46G[73551] [?25l[16G[0ma.payment_transactions.first([0m[45G[K[?25h[45G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.first[0m[44G[K[?25h[44G[73551] [?25l[16G[0ma.payment_transactions.firs[0m[43G[K[?25h[43G[73551] [?25l[16G[0ma.payment_transactions.fir[0m[42G[K[?25h[42G[73551] [?25l[16G[0ma.payment_transactions.fi[0m[41G[K[?25h[41G[73551] [?25l[16G[0ma.payment_transactions.f[0m[40G[K[?25h[40G[73551] [?25l[1G[0mirb(main):015* [0m[73551] [16G[0ma.payment_transactions.[0m[39G[K[?25h[39G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.o[0m[?25h[40G[73551] [?25l[16G[0ma.payment_transactions.or[0m[?25h[41G[73551] [?25l[16G[0ma.payment_transactions.ord[0m[?25h[42G[73551] [?25l[16G[0ma.payment_transactions.orde[0m[?25h[43G[73551] [?25l[16G[0ma.payment_transactions.order[0m[?25h[44G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.order([0m[?25h[45G[73551] [?25l[73551] [16G[0ma.payment_transactions.order([31m[7m:[0m[0m[?25h[46G[73551] [?25l[16G[0ma.payment_transactions.order([33m:[0m[33mc[0m[0m[?25h[47G[73551] [?25l[16G[0ma.payment_transactions.order([31m[7m:[0m[0m[46G[K[?25h[46G[73551] [?25l[16G[0ma.payment_transactions.order([0m[45G[K[?25h[45G[73551] [?25l[16G[0ma.payment_transactions.order(c[0m[?25h[46G[73551] [?25l[16G[0ma.payment_transactions.order(cr[0m[?25h[47G[73551] [?25l[73551] [16G[0ma.payment_transactions.order(cre[0m[?25h[48G[73551] [?25l[16G[0ma.payment_transactions.order(crea[0m[?25h[49G[73551] [?25l[16G[0ma.payment_transactions.order(creat[0m[?25h[50G[73551] [?25l[16G[0ma.payment_transactions.order(create[0m[?25h[51G[73551] [?25l[16G[0ma.payment_transactions.order(created[0m[?25h[52G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated:[0m[0m[?25h[53G[73551] [?25l[16G[0ma.payment_transactions.order(created[0m[52G[K[?25h[52G[73551] [?25l[16G[0ma.payment_transactions.order(createda[0m[?25h[53G[73551] [?25l[16G[0ma.payment_transactions.order(created[0m[52G[K[?25h[52G[73551] [?25l[16G[0ma.payment_transactions.order(created_[0m[?25h[53G[73551] [?25l[16G[0ma.payment_transactions.order(created_a[0m[?25h[54G[73551] [?25l[16G[0ma.payment_transactions.order(created_at[0m[?25h[55G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m[0m[?25h[56G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [0m[?25h[57G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m d[0m[?25h[58G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m de[0m[?25h[59G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m d[0m[58G[K[?25h[58G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [0m[57G[K[?25h[57G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [31m[7m:[0m[0m[?25h[58G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33md[0m[0m[?25h[59G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mde[0m[0m[?25h[60G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdes[0m[0m[?25h[61G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m[0m[?25h[62G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m)[31m[7m_[0m[0m[?25h[64G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m)[0m[63G[K[?25h[63G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).[0m[?25h[64G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).l[0m[?25h[65G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).la[0m[?25h[66G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).las[0m[?25h[67G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).last[0m[?25h[68G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).last([0m[?25h[69G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).last[0m[68G[K[?25h[68G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).las[0m[67G[K[?25h[67G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).la[0m[66G[K[?25h[66G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).l[0m[65G[K[?25h[65G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).[0m[64G[K[?25h[64G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).f[0m[?25h[65G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).fi[0m[?25h[66G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).fir[0m[?25h[67G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).firs[0m[?25h[68G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first[0m[?25h[69G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([0m[?25h[70G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m1[0m[0m[?25h[71G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m1[0m)[0m[?25h[72G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m1[0m)[31m[7m)[0m[0m[?25h[73G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m1[0m)[0m[72G[K[?25h[72G[73551] [?25l[1G[0mirb(main):015* [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m1[0m[0m[71G[K[?25h[71G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m[0m[?25h[72G[73551] [?25l[1G[0mirb(main):015> [0m[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)[0m[?25h[73G[73551] [1G[Kirb(main):015> a.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2f2b2b2c0[0m[m
+  id: [34m[1m3441[0m,[m
+  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460210[0m,[m
+  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m343[0m,[m
+  created_at: Fri, 19 Jul 2024 18:45:53.757774000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 18:50:01.680596000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: Fri, 19 Jul 2024 18:50:01.662017000 UTC +00:00,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36517KATAV25A3PAYZRE15B[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: [36m[1mnil[0m,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f2b2ac80[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m3440[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460211[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m3068[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Fri, 19 Jul 2024 18:45:53.757774000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Fri, 19 Jul 2024 18:50:01.630681000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  canceled_at: Fri, 19 Jul 2024 18:50:01.581334000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mpayt_01J36517J380E1NB0DF2GDHMES[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  post_at: Fri, 19 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  account_id: [34m[1m9[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f2b2a640[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m3241[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460211[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m2874[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 09 Jul 2024 15:40:08.584481000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Fri, 12 Jul 2024 16:00:00.492828000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: Tue, 09 Jul 2024 19:30:01.151146000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: Tue, 09 Jul 2024 19:30:02.977703000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: Fri, 12 Jul 2024 16:00:00.492838000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  canceled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mpayt_01J2C2DXKZ1MYQP8NVRY95S0EA[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  post_at: Tue, 09 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  account_id: [34m[1m9[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<PaymentTransaction:0x00007fb2f2b2a000[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m3242[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  amount: [34m[1m10000[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  payment_method_id: [34m[1m460210[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  transactable_id: [34m[1m338[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 09 Jul 2024 15:40:08.584481000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Fri, 12 Jul 2024 16:05:00.417213000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posting_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  posted_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  succeeded_at: Fri, 12 Jul 2024 16:05:00.413940000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  failed_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  canceled_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mpayt_01J2C2DXNDNFPXQE99GCF4WM18[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  post_at: Fri, 12 Jul 2024 16:00:02.042637000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  account_id: [34m[1m9[0m,[m
+:[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):016> [0m[?25h[16G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)[0m[?25h[73G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0ma[0m[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mA[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mAc[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mAcc[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mAcco[0m[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mAccou[0m[0m[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mAccoun[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m[0m[?25h[23G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m.[0m[?25h[24G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m.f[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fi[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fin[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.find[0m[?25h[28G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m.find([0m[?25h[29G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m.find[0m[28G[K[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fin[0m[27G[K[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fi[0m[26G[K[?25h[26G[73551] [?25l[73551] [16G[0m[34m[1m[4mAccount[0m.f[0m[25G[K[?25h[25G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m.[0m[24G[K[?25h[24G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mAccoun[0m[0m[22G[K[?25h[22G[73551] [?25l[73551] [16G[0m[34m[1m[4mAccou[0m[0m[21G[K[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mAcco[0m[0m[20G[K[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mAcc[0m[0m[19G[K[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mAc[0m[0m[18G[K[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mA[0m[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [?25l[16G[0m[34m[1m[4mA[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mAc[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mAcc[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mAcco[0m[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mAccou[0m[0m[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mAccoun[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m[0m[?25h[23G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m;[31m[7m.[0m[0m[?25h[25G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m;[31m[7m.[0mf[0m[?25h[26G[73551] [?25l[73551] [1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m;[31m[7m.[0m[0m[25G[K[?25h[25G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m;[0m[24G[K[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m[0m[23G[K[?25h[23G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m.[0m[?25h[24G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m.f[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fi[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fin[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.find[0m[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fin[0m[27G[K[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.fi[0m[26G[K[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mAccount[0m.f[0m[25G[K[?25h[25G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mAccount[0m.[0m[24G[K[?25h[24G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mAccount[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mAccoun[0m[0m[22G[K[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mAccou[0m[0m[21G[K[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mAcco[0m[0m[20G[K[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mAcc[0m[0m[19G[K[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mAc[0m[0m[18G[K[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mA[0m[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [16G[73551] [16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[?25h[20G[73551] [?25l[73551] [16G[0m[34m[1m[4mWebho[0m[0m[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mWebhoo[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhook_[0m[0m[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhookEv[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvet[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvet[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[73551] [26G[K[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEven[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m[0m[?25h[28G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.[0m[?25h[29G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.f[0m[?25h[30G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.fi[0m[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.fid[0m[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.fi[0m[31G[K[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.fin[0m[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find[0m[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_[0m[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_b[0m[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_by[0m[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_by_[0m[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_by[0m[36G[K[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_b[0m[35G[K[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find_[0m[34G[K[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.find[0m[33G[K[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.fin[0m[32G[K[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.fi[0m[31G[K[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.f[0m[30G[K[?25h[30G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.[0m[29G[K[?25h[29G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.w[0m[?25h[30G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wh[0m[73551] [?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.whe[0m[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wher[0m[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where[0m[?25h[34G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where*[0m[?25h[35G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where*a[0m[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where*ac[0m[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where*a[0m[36G[K[?25h[36G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where*[0m[35G[K[?25h[35G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where[0m[34G[K[?25h[34G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([0m[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(a[0m[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(ac[0m[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(acc[0m[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(acco[0m[?25h[39G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(accou[0m[?25h[40G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(accoun[0m[?25h[41G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(account[0m[?25h[42G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(accoun[0m[41G[K[?25h[41G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(accou[0m[40G[K[?25h[40G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(acco[0m[39G[K[?25h[39G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(acc[0m[38G[K[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(ac[0m[73551] [37G[K[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(a[0m[36G[K[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([0m[35G[K[?25h[35G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where[0m[34G[K[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wher[0m[33G[K[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.whe[0m[32G[K[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wh[0m[31G[K[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.w[0m[30G[K[?25h[30G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.[0m[29G[K[?25h[29G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEvent[0m[0m[28G[K[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mWebhookEven[0m[0m[27G[K[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[73551] [0m[34m[1m[4mWebhookEv[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[24G[K[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhoo[0m[0m[22G[K[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mWebho[0m[0m[21G[K[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[20G[K[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[19G[K[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[18G[K[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mWebho[0m[0m[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mWebhoo[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhook_[0m[0m[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhook_e[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhook_en[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhook_e[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhook_[0m[0m[24G[K[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhook_E[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhook_EN[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhook_ENd[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhook_EN[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhook_E[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhook_[0m[0m[73551] [24G[K[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhookEd[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookEdn[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEdnp[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEdnpo[0m[0m[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mWebhookEdnp[0m[0m[27G[K[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEdn[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEd[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[24G[K[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhookEn[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookEnd[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndp[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpo[0m[0m[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoi[0m[0m[?25h[29G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoin[0m[0m[?25h[30G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m[0m[?25h[31G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEndpoint[0m([0m[?25h[32G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEndpoint[0m[0m[31G[K[?25h[31G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEndpoint[0m.[0m[?25h[32G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEndpoint[0m.w[0m[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.wh[0m[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.whe[0m[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.wher[0m[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where[0m[?25h[37G[73551] [?25l[1G[0mirb(main):016* [0m[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([0m[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(a[0m[?25h[39G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(ac[0m[?25h[40G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(acc[0m[?25h[41G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(acco[0m[?25h[42G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(accou[0m[?25h[43G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(accoun[0m[?25h[44G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(account[0m[?25h[45G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(account_[0m[?25h[46G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(account_i[0m[?25h[47G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where(account_id[0m[?25h[48G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m[0m[?25h[49G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [0m[?25h[50G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m[0m[?25h[73551] [51G[73551] [?25l[1G[0mirb(main):016> [0m[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[52G[73551] [1G[Kirb(main):016> [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)
+[1G[?2004l[73551] => 
+[[32m#<WebhookEndpoint:0x00007fb2ef950fe8[0m
+  id: [34m[1m2[0m,
+  account_id: [34m[1m9[0m,
+  description: [31m[1m"[0m[31mJustworks Administrative Services (Inlt ConPlat)[0m[31m[1m"[0m,
+  url:
+   [31m[1m"[0m[31mhttps://pay-webhook-adapter-sandbox.nonprod.vibe.justworks.com/webhook_engine/ingest_event?topic_name=staging.international.payments.pay-api-events[0m[31m[1m"[0m,
+  status: [31m[1m"[0m[31menabled[0m[31m[1m"[0m,
+  subscriptions: [[31m[1m"[0m[31m*[0m[31m[1m"[0m],
+  created_at: Wed, 27 Mar 2024 21:20:58.038470000 UTC +00:00,
+  updated_at: Mon, 22 Apr 2024 16:52:42.553298000 UTC +00:00,
+  ulid: [31m[1m"[0m[31mwe_01HT0WK7NF2CP880Q8B2DBVK52[0m[31m[1m"[0m[32m>[0m]
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):017> [0m[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[52G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)[0m[?25h[73G[73551] [?25l[16G[0m[34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[52G[K[?25h[52G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mWebho[0m[0m[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mWebhoo[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhookEv[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEven[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m[0m[?25h[28G[73551] [?25l[1G[0mirb(main):017* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.[0m[?25h[29G[73551] [?25l[1G[0mirb(main):017> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.w[0m[?25h[30G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wh[0m[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.whe[0m[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wher[0m[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where[0m[?25h[34G[73551] [?25l[1G[0mirb(main):017* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([0m[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(w[0m[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(we[0m[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(web[0m[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webh[0m[?25h[39G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webho[0m[?25h[40G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhoo[0m[?25h[41G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook[0m[?25h[42G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_[0m[?25h[43G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook[0m[42G[K[?25h[42G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhoo[0m[41G[K[?25h[41G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webho[0m[40G[K[?25h[40G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webh[0m[39G[K[?25h[39G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(web[0m[38G[K[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(we[0m[37G[K[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(w[0m[36G[K[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([0m[35G[K[?25h[35G[73551] [?25l[1G[0mirb(main):017> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where[0m[34G[K[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wher[0m[33G[K[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.whe[0m[32G[K[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wh[0m[31G[K[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.w[0m[30G[K[?25h[30G[73551] [?25l[1G[0mirb(main):017* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.[0m[29G[K[?25h[29G[73551] [?25l[1G[0mirb(main):017> [0m[16G[0m[34m[1m[4mWebhookEvent[0m[0m[28G[K[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mWebhookEven[0m[0m[27G[K[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[26G[K[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEv[0m[0m[25G[K[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[24G[K[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[23G[K[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhoo[0m[0m[22G[K[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mWebho[0m[0m[21G[K[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[20G[K[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[19G[K[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[18G[K[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)[0m[?25h[73G[73551] [?25l[16G[0ma.payment_transactions.first([34m[1m10[0m)[0m[48G[K[?25h[48G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[47G[K[?25h[47G[73551] [?25l[16G[0ma.payment_transactions[0m[38G[K[?25h[38G[73551] [38G[73551] [?25l[16G[0ma.payment_tranasctions[0m[?25h[38G[73551] [?25l[16G[0ma[0m[17G[K[?25h[17G[73551] [?25l[16G[0ma.payment_tranasctions[0m[?25h[38G[73551] [?25l[16G[0ma.payment_transactions[0m[?25h[38G[73551] [38G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[?25h[47G[73551] [?25l[16G[0ma.payment_transactions.first([34m[1m10[0m)[0m[?25h[48G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)[0m[?25h[73G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[?25h[20G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[?25h[20G[73551] [20G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[19G[K[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[18G[K[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [?25l
+[1A[16G[0m [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[1B[1G[K[1G[0mirb(main):018> [0m[?25h[16G[73551] [16G[1A[73551] [?25l[16G[0mw [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[17G[73551] [?25l[16G[0mwe [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[18G[73551] [?25l[16G[0mwe  [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[19G[73551] [?25l[16G[0mwe = [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[20G[73551] [?25l[16G[0mwe =  [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[21G[73551] [1G[1B[K[1A[Kirb(main):017> we =  [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)
+irb(main):018> 
+[1G[?2004l[73551] => ...[0m
+[73551] [?2004h[6n[73551] [?25l[1G[K[1G[0mirb(main):019> [0m[?25h[16G[73551] [?25l[16G[0mw[0m[?25h[17G[73551] [?25l[16G[0mwe[0m[?25h[18G[73551] [?25l[1G[0mirb(main):019* [0m[16G[0mwe.[0m[?25h[19G[73551] [?25l[1G[0mirb(main):019> [0m[73551] [16G[0mwe.w[0m[?25h[20G[73551] [?25l[16G[0mwe.we[0m[?25h[21G[73551] [?25l[16G[0mwe.web[0m[?25h[22G[73551] [?25l[16G[0mwe.webh[0m[?25h[23G[73551] [?25l[16G[0mwe.webho[0m[?25h[24G[73551] [?25l[16G[0mwe.webhoo[0m[?25h[25G[73551] [?25l[16G[0mwe.webhook[0m[?25h[26G[73551] [?25l[16G[0mwe.webhook_[0m[?25h[27G[73551] [?25l[16G[0mwe.webhook_e[0m[?25h[28G[73551] [?25l[16G[0mwe.webhook_ev[0m[?25h[29G[73551] [?25l[16G[0mwe.webhook_eve[0m[?25h[30G[73551] [?25l[16G[0mwe.webhook_even[0m[?25h[31G[73551] [?25l[16G[0mwe.webhook_event[0m[?25h[32G[73551] [?25l[16G[0mwe.webhook_events[0m[?25h[33G[73551] [1G[Kirb(main):019> we.webhook_events
+[1G[?2004l[73551] (irb):19:in `<main>': [1mundefined method `webhook_events' for an instance of ActiveRecord::Relation ([1;4mNoMethodError[m[1m)[m
+[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):020> [0m[?25h[16G[73551] [?25l[16G[0mwe.webhook_events[0m[?25h[33G[73551] [32G[73551] [33G[73551] [?25l[16G[0mwe.webhook_event[0m[32G[K[?25h[32G[73551] [?25l[16G[0mwe.webhook_even[0m[31G[K[?25h[31G[73551] [?25l[16G[0mwe.webhook_eve[0m[30G[K[?25h[30G[73551] [?25l[16G[0mwe.webhook_ev[0m[29G[K[?25h[29G[73551] [?25l[16G[0mwe.webhook_e[0m[28G[K[?25h[28G[73551] [?25l[16G[0mwe.webhook_[0m[27G[K[?25h[27G[73551] [?25l[16G[0mwe.webhook[0m[26G[K[?25h[26G[73551] [?25l[16G[0mwe.webhoo[0m[25G[K[?25h[25G[73551] [?25l[16G[0mwe.webho[0m[24G[K[?25h[24G[73551] [?25l[16G[0mwe.webh[0m[23G[K[?25h[23G[73551] [?25l[16G[0mwe.web[0m[22G[K[?25h[22G[73551] [?25l[16G[0mwe.we[0m[21G[K[?25h[21G[73551] [?25l[16G[0mwe.w[0m[20G[K[?25h[20G[73551] [?25l[1G[0mirb(main):020* [0m[16G[0mwe.[0m[19G[K[?25h[19G[73551] [?25l[1G[0mirb(main):020> [0m[16G[0mwe[0m[18G[K[?25h[18G[73551] [?25l[16G[0mw[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [16G[73551] [16G[73551] [16G[73551] [16G[73551] [?25l[16G[0m[34m[1m[4mW[0m[0m[?25h[17G[73551] [?25l[16G[0m[34m[1m[4mWe[0m[0m[?25h[18G[73551] [?25l[16G[0m[34m[1m[4mWeb[0m[0m[?25h[19G[73551] [?25l[16G[0m[34m[1m[4mWebh[0m[0m[?25h[20G[73551] [?25l[16G[0m[34m[1m[4mWebho[0m[0m[?25h[21G[73551] [?25l[16G[0m[34m[1m[4mWebhoo[0m[0m[?25h[22G[73551] [?25l[16G[0m[34m[1m[4mWebhook[0m[0m[?25h[23G[73551] [?25l[16G[0m[34m[1m[4mWebhookE[0m[0m[?25h[24G[73551] [?25l[16G[0m[34m[1m[4mWebhookEv[0m[0m[?25h[25G[73551] [?25l[16G[0m[34m[1m[4mWebhookEve[0m[0m[?25h[26G[73551] [?25l[16G[0m[34m[1m[4mWebhookEven[0m[0m[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m[0m[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m[0m[?25h[29G[73551] [?25l[1G[0mirb(main):020* [0m[16G[0m[34m[1m[4mWebhookEvents[0m.[0m[?25h[30G[73551] [?25l[1G[0mirb(main):020> [0m[16G[0m[34m[1m[4mWebhookEvents[0m.w[0m[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.wh[0m[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.whe[0m[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.wher[0m[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.where[0m[?25h[35G[73551] [?25l[1G[0mirb(main):020* [0m[16G[0m[34m[1m[4mWebhookEvents[0m.where([0m[?25h[36G[73551] [?25l[1G[0mirb(main):020> [0m[16G[0m[34m[1m[4mWebhookEvents[0m.where[0m[35G[K[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.wher[0m[34G[K[?25h[34G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.whe[0m[33G[K[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.wh[0m[32G[K[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvents[0m.w[0m[31G[K[?25h[31G[73551] [?25l[1G[0mirb(main):020* [0m[16G[0m[34m[1m[4mWebhookEvents[0m.[0m[30G[K[?25h[30G[73551] [?25l[1G[0mirb(main):020> [0m[16G[0m[34m[1m[4mWebhookEvents[0m[0m[29G[K[?25h[29G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m[0m[28G[K[?25h[28G[73551] [?25l[16G[0m[34m[1m[4mWebhookEven[0m[0m[27G[K[?25h[27G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m[0m[?25h[28G[73551] [?25l[1G[0mirb(main):020* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.[0m[?25h[29G[73551] [?25l[1G[0mirb(main):020> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.w[0m[?25h[30G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wh[0m[?25h[31G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.whe[0m[?25h[32G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.wher[0m[?25h[33G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where[0m[?25h[34G[73551] [?25l[1G[0mirb(main):020* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([0m[?25h[35G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(w[0m[?25h[36G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(we[0m[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(weh[0m[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(we[0m[37G[K[?25h[37G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(web[0m[?25h[38G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webh[0m[?25h[39G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webho[0m[?25h[40G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhoo[0m[?25h[41G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook[0m[?25h[42G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_[0m[?25h[43G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_e[0m[?25h[44G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_en[0m[?25h[45G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_env[0m[?25h[46G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_envp[0m[?25h[47G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_envpo[0m[?25h[48G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_envp[0m[47G[K[?25h[47G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_env[0m[46G[K[?25h[46G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_en[0m[45G[K[?25h[45G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_end[0m[?25h[46G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_endo[0m[?25h[47G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_end[0m[46G[K[?25h[46G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_endp[0m[?25h[47G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_endpo[0m[?25h[48G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_endpoi[0m[?25h[49G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_endpoin[0m[?25h[50G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where(webhook_endpoint[0m[?25h[51G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m[0m[?25h[52G[73551] [?25l[73551] [16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [0m[?25h[53G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m[0m[?25h[54G[73551] [?25l[1G[0mirb(main):020> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m)[0m[?25h[55G[73551] [1G[Kirb(main):020> [34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<WebhookEvent:0x00007fb2fb8600c8[0m[m
+  id: [34m[1m53[0m,[m
+  webhook_endpoint_id: [34m[1m2[0m,[m
+  event_id: [34m[1m2972[0m,[m
+  attempts:[m
+   [[32m#<WebhookEventAttempt:0x00007fb2fb8d0698[0m[m
+     @attempt_uuid[32m=[0m[31m[1m"[0m[31ma3e21047-f27e-40d6-9840-4e060f4eb5c6[0m[31m[1m"[0m,[m
+     @attempted[32m=[0mTue, 30 Apr 2024 16:05:00.638999938 UTC +00:00,[m
+     @code[32m=[0m[34m[1m200[0m,[m
+     @error[32m=[0m[36m[1mnil[0m,[m
+     @error_class[32m=[0m[36m[1mnil[0m,[m
+     @headers[32m=[0m[m
+      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mTue, 30 Apr 2024 16:05:00 GMT[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.081924[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31mb4e83f60-02ca-4d73-90ae-2529a3934512[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 30 Apr 2024 16:05:00.597695000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Tue, 30 Apr 2024 16:05:00.839583000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01HWQW14HMA080EJHJZH3STT4X[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f2b253c0[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m75[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m3024[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f15fc598[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31mcc2ede69-49ef-4aa1-979a-a00521b28a82[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mWed, 01 May 2024 19:30:03.862999916 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error_class[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @headers[32m=[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mWed, 01 May 2024 19:30:04 GMT[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.055737[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31me68ae3e0-cccb-4c43-9828-b2eb16915ff5[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Wed, 01 May 2024 19:30:03.044648000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Wed, 01 May 2024 19:30:04.329397000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01HWTT59N4Q21ESGE4E0DK4QPW[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f2b25280[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m285[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m3631[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K[?1l>[73551] [?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):021> [0m[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m)[0m[?25h[55G[73551] [?25l[1G[0mirb(main):021* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).[0m[?25h[56G[73551] [?25l[1G[0mirb(main):021> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).l[0m[73551] [?25h[57G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).la[0m[?25h[58G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).las[0m[?25h[59G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last[0m[?25h[60G[73551] [?25l[1G[0mirb(main):021* [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([0m[?25h[61G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([34m[1m1[0m[0m[?25h[62G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([34m[1m10[0m[0m[?25h[63G[73551] [?25l[1G[0mirb(main):021> [0m[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([34m[1m10[0m)[0m[?25h[64G[73551] [1G[Kirb(main):021> [34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([34m[1m10[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<WebhookEvent:0x00007fb2f04c6a58[0m[m
+  id: [34m[1m598[0m,[m
+  webhook_endpoint_id: [34m[1m2[0m,[m
+  event_id: [34m[1m4484[0m,[m
+  attempts:[m
+   [[32m#<WebhookEventAttempt:0x00007fb2f14c33e8[0m[m
+     @attempt_uuid[32m=[0m[31m[1m"[0m[31m33c797f8-2b7c-4088-b42d-afb7bd746231[0m[31m[1m"[0m,[m
+     @attempted[32m=[0mTue, 09 Jul 2024 19:30:03.842999935 UTC +00:00,[m
+     @code[32m=[0m[34m[1m200[0m,[m
+     @error[32m=[0m[36m[1mnil[0m,[m
+     @error_class[32m=[0m[36m[1mnil[0m,[m
+     @headers[32m=[0m[m
+      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mTue, 09 Jul 2024 19:30:04 GMT[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.169511[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31m974c3f7e-cc21-4f99-9a54-d3066ace28f4[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Tue, 09 Jul 2024 19:30:03.164863000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Tue, 09 Jul 2024 19:30:04.172543000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01J2CFJWRVSP1VDRPB0X0QS5RG[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f04c6b98[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m609[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m4562[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f1120790[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31m50ae56cf-9636-4e76-873d-b623da0cf1a1[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mThu, 11 Jul 2024 16:00:02.127000093 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error_class[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @headers[32m=[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mThu, 11 Jul 2024 16:00:02 GMT[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.199971[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31m69703283-bd85-4ff2-938e-d0426c1e3bf5[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Thu, 11 Jul 2024 16:00:01.606708000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 11 Jul 2024 16:00:02.481088000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KAA[K[HM  attempts:[m
+[24;1H[K:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 11 Jul 2024 16:00:02.481088000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01J2H8BRJ43KB274WPWSX2KXK9[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f04c6cd8[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m610[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m4568[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f06c24b0[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31m82ccc53f-3d7d-4284-a4db-a3e0abc971ea[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mThu, 11 Jul 2024 16:00:02.204999923 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error_class[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @headers[32m=[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mThu, 11 Jul 2024 16:00:02 GMT[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.137574[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31m4b8de1d1-92db-4e83-8ed4-9a9b600083b6[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Thu, 11 Jul 2024 16:00:01.745462000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 11 Jul 2024 16:00:02.476363000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01J2H8BRPHB8D1MCMFNCGRA8PY[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f04c6e18[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m613[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m4571[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f0374330[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31m0a26e9b2-9bc6-451f-a249-df047adb1620[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mThu, 11 Jul 2024 16:05:00.571000099 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error_class[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @headers[32m=[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mThu, 11 Jul 2024 16:05:00 GMT[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.061345[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31m8fb38016-d9a2-4da0-88cf-9e7fff0ad78e[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Thu, 11 Jul 2024 16:05:00.517449000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Thu, 11 Jul 2024 16:05:00.784556000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01J2H8MWF5BKC4YYP6JR7GZATE[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f04c6f58[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m614[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m4572[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f0046190[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31mb23be435-a29b-475c-b288-b03a77383a86[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mThu, 11 Jul 2024 16:05:00.582000017 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error_class[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @headers[32m=[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mThu, 11 Jul 2024 16:05:00 GMT[0m[31m[1m"[0m,[m
+:[K[73551] [K       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.050799[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31md391d03a-883f-4b0c-9ccf-0ef5df6e029f[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-frame-options[0m[31[73551] m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+  created_at: Thu, 11 Jul 2024 16:05:00.528427000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:05:00.792414000 UTC +00:00,[m
+  ulid: [31m[1m"[0m[31mwevt_01J2H8MWFG9M0JFKEFS9N1TE87[0m[31m[1m"[0m[32m>[0m,[m
+ [32m#<WebhookEvent:0x00007fb2f04c7098[0m[m
+  id: [34m[1m615[0m,[m
+  webhook_endpoint_id: [34m[1m2[0m,[m
+  event_id: [34m[1m4573[0m,[m
+  attempts:[m
+   [[32m#<WebhookEventAttempt:0x00007fb2eff38028[0m[m
+     @attempt_uuid[32m=[0m[31m[1m"[0m[31m5c51d4c3-f267-4be7-806b-dbda2e8d3a6f[0m[31m[1m"[0m,[m
+:[K[73551] [K     @attempted[32m=[0mThu, 11 Jul 2024 16:05:00.730000019 UTC +00:00,[m
+     @code[32m=[0m[34m[1m200[0m,[m
+     @error[32m=[0m[36m[1mnil[0m,[m
+     @error_class[32m=[0m[36m[1mnil[0m,[m
+     @headers[32m=[0m[m
+      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mThu, 11 Jul 2024 16:05:00 GMT[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.092395[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31maac08eef-6141-4632-af8f-35c1988e1ece[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m[73551] "[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+  created_at: Thu, 11 Jul 2024 16:05:00.573490000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:05:00.905079000 UTC +00:00,[m
+  ulid: [31m[1m"[0m[31mwevt_01J2H8MWGW0ATWFHMXKY54MH18[0m[31m[1m"[0m[32m>[0m,[m
+ [32m#<WebhookEvent:0x00007fb2f04c71d8[0m[m
+:[K[73551] [K  id: [34m[1m616[0m,[m
+  webhook_endpoint_id: [34m[1m2[0m,[m
+  event_id: [34m[1m4574[0m,[m
+  attempts:[m
+   [[32m#<WebhookEventAttempt:0x00007fb2eff59ed0[0m[m
+     @attempt_uuid[32m=[0m[31m[1m"[0m[31mdd5777c4-1bf3-47a8-9521-9d72a8840d2f[0m[31m[1m"[0m,[m
+     @attempted[32m=[0mThu, 11 Jul 2024 16:05:00.746000051 UTC +00:00,[m
+     @code[32m=[0m[34m[1m200[0m,[m
+     @error[32m=[0m[36m[1mnil[0m,[m
+     @error_class[32m=[0m[36m[1mnil[0m,[m
+     @headers[32m=[0m[m
+      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mThu, 11 Jul 2024 16:05:00 GMT[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.084488[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[[73551] 0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31m19ff7237-6fd1-4be8-ac1e-b48bc0f574ef[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+  created_at: Thu, 11 Jul 2024 16:05:00.576522000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:05:00.913164000 UTC +00:00,[m
+  ulid: [31m[1m"[0m[31mwevt_01J2H8MWH0KXNR59K7X7V8W1GP[0m[31m[1m"[0m[32m>[0m,[m
+ [32m#<WebhookEvent:0x00007fb2f04c7318[0m[m
+  id: [34m[1m630[0m,[m
+  webhook_endpoint_id: [34m[1m2[0m,[m
+  event_id: [34m[1m4635[0m,[m
+  attempts:[m
+   [[32m#<WebhookEventAttempt:0x00007fb2eff9bd30[0m[m
+     @attempt_uuid[32m=[0m[31m[1m"[0m[31m1790e770-9a33-4cac-821f-a99f1401d945[0m[31m[1m"[0m,[m
+     @attempted[32m=[0mFri, 12 Jul 2024 16:00:03.803999900 UTC +00:00,[m
+     @code[32m=[0m[34m[1m200[0m,[m
+     @error[32m=[0m[36m[1mnil[0m,[m
+     @error_class[32m=[0m[36m[1mnil[0m,[m
+     @headers[32m=[0m[m
+      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mFri, 12 Jul 2024 16:00:04 GMT[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.056026[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31mcaf15eb3-d7da-42aa-a9bb-b23d047c6ea1[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Fri, 12 Jul 2024 16:00:03.382931000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Fri, 12 Jul 2024 16:00:04.025843000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01J2KTRH9GMH3TH4G4M60CK1RG[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f04c7458[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m632[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m4640[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f008db80[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31m7a5d5baa-e1a7-4810-a64c-ad8399ceb0e6[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mFri, 12 Jul 2024 16:05:01.286000013 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @error_class[32m=[0m[36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @headers[32m=[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mFri, 12 Jul 2024 16:05:01 GMT[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.055153[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31m06bfb7d0-fe33-4d5b-89a2-4860081cf812[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mcontent-length[0m[31m[1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  created_at: Fri, 12 Jul 2024 16:05:00.554920000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  updated_at: Fri, 12 Jul 2024 16:05:01.500590000 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  ulid: [31m[1m"[0m[31mwevt_01J2KV1KGAQSNMBJ3S94H03J3H[0m[31m[1m"[0m[32m>[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K [32m#<WebhookEvent:0x00007fb2f04c7598[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  id: [34m[1m635[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  webhook_endpoint_id: [34m[1m2[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  event_id: [34m[1m4643[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  attempts:[m
+:[K[73551] [K [KESCESC[KOO[KBB[K   [[32m#<WebhookEventAttempt:0x00007fb2f00df9d0[0m[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempt_uuid[32m=[0m[31m[1m"[0m[31mec935cca-21d5-4017-837a-a25e74819ab0[0m[31m[1m"[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @attempted[32m=[0mFri, 12 Jul 2024 16:05:01.288000106 UTC +00:00,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K     @code[32m=[0m[34m[1m200[0m,[m
+:[K[73551] [K     @error[32m=[0m[36m[1mnil[0m,[m
+     @error_class[32m=[0m[36m[1mnil[0m,[m
+     @headers[32m=[0m[m
+      {[31m[1m"[0m[31mdate[0m[31m[1m"[0m=>[31m[1m"[0m[31mFri, 12 Jul 2024 16:05:01 GMT[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31metag[0m[31m[1m"[0m=>[31m[1m"[0m[31mW/\"838a7c62adda8d131d694ae13ba2c5b7\"[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mvary[0m[31m[1m"[0m=>[31m[1m"[0m[31mAccept[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-runtime[0m[31m[1m"[0m=>[31m[1m"[0m[31m0.049795[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-type[0m[31m[1m"[0m=>[31m[1m"[0m[31mapplication/json; charset=utf-8[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-request-id[0m[31m[1m"[0m=>[31m[1m"[0m[31mff534f8c-b50e-4015-853c-55b2609b3a95[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcache-control[0m[31m[1m"[0m=>[31m[1m"[0m[31mmax-age=0, private, must-revalidate[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mcontent-length[0m[31m[73551] [1m"[0m=>[31m[1m"[0m[31m21[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mreferrer-policy[0m[31m[1m"[0m=>[31m[1m"[0m[31mstrict-origin-when-cross-origin[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-frame-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mSAMEORIGIN[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-xss-protection[0m[31m[1m"[0m=>[31m[1m"[0m[31m0[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-download-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnoopen[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-content-type-options[0m[31m[1m"[0m=>[31m[1m"[0m[31mnosniff[0m[31m[1m"[0m,[m
+       [31m[1m"[0m[31mx-permitted-cross-domain-policies[0m[31m[1m"[0m=>[31m[1m"[0m[31mnone[0m[31m[1m"[0m}[32m>[0m],[m
+  created_at: Fri, 12 Jul 2024 16:05:00.642236000 UTC +00:00,[m
+  updated_at: Fri, 12 Jul 2024 16:05:01.484226000 UTC +00:00,[m
+  ulid: [31m[1m"[0m[31mwevt_01J2KV1KK27RDH375PZNAF47J5[0m[31m[1m"[0m[32m>[0m][m
+[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):022> [0m[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([34m[1m10[0m)[0m[?25h[64G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m)[0m[55G[K[?25h[55G[73551] [?25l[16G[0mwe.webhook_events[0m[33G[K[?25h[33G[73551] [?25l[73551] [16G[0mwe =  [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[58G[73551] [?25l[16G[0mwe.webhook_events[0m[33G[K[?25h[33G[73551] [1G[Kirb(main):022> we.webhook_events
+[1G[?2004l[73551] (irb):22:in `<main>': [1mundefined method `webhook_events' for an instance of ActiveRecord::Relation ([1;4mNoMethodError[m[1m)[m
+[?2004h[6n[73551] [?25l[1G[K[1G[0mirb(main):023> [0m[?25h[16G[73551] [?25l[16G[0mwe.webhook_events[0m[?25h[33G[73551] [?25l[16G[0mwe.webhook_event[0m[32G[K[?25h[32G[73551] [?25l[16G[0mwe.webhook_even[0m[31G[K[?25h[31G[73551] [?25l[16G[0mwe.webhook_eve[0m[30G[K[?25h[30G[73551] [?25l[16G[0mwe.webhook_ev[0m[29G[K[?25h[29G[73551] [?25l[16G[0mwe.webhook_e[0m[28G[K[?25h[28G[73551] [?25l[16G[0mwe.webhook_[0m[27G[K[?25h[27G[73551] [?25l[16G[0mwe.webhook[0m[26G[K[?25h[26G[73551] [?25l[16G[0mwe.webhoo[0m[25G[K[?25h[25G[73551] [?25l[16G[0mwe.webho[0m[24G[K[?25h[24G[73551] [?25l[16G[0mwe.webh[0m[23G[K[?25h[23G[73551] [?25l[16G[0mwe.web[0m[22G[K[?25h[22G[73551] [?25l[16G[0mwe.we[0m[21G[K[?25h[21G[73551] [?25l[16G[0mwe.w[0m[20G[K[?25h[20G[73551] [?25l[1G[0mirb(main):023* [0m[16G[0mwe.[0m[19G[K[?25h[19G[73551] [?25l[1G[0mirb(main):023> [0m[16G[0mwe[0m[18G[K[?25h[18G[73551] [?25l[16G[0mw[0m[17G[K[?25h[17G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m).last([34m[1m10[0m)[0m[?25h[64G[73551] [?25l[16G[0m[34m[1m[4mWebhookEvent[0m.where([35mwebhook_endpoint:[0m [34m[1m2[0m)[0m[55G[K[?25h[55G[73551] [?25l[16G[0mwe.webhook_events[0m[33G[K[?25h[33G[73551] [?25l[16G[0mwe =  [34m[1m[4mWebhookEndpoint[0m.where([35maccount_id:[0m [34m[1m9[0m)[0m[?25h[58G[73551] [?25l[16G[K[?25h[16G[73551] [?25l[16G[0ma.payment_transactions.order([35mcreated_at:[0m [33m:[0m[33mdesc[0m).first([34m[1m10[0m)[0m[?25h[73G[73551] [?25l[16G[0ma.payment_transactions.first([34m[1m10[0m)[0m[48G[K[?25h[48G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[47G[K[?25h[47G[73551] [?25l[16G[0ma.payment_transactions[0m[38G[K[?25h[38G[73551] [38G[73551] [38G[73551] [?25l[16G[0ma.payment_transactions.last([34m[1m10[0m)[0m[?25h[47G[73551] [1G[Kirb(main):023> a.payment_transactions.last([34m[1m10[0m)
+[1G[?2004l[73551] [?1h==> [m
+[[32m#<PaymentTransaction:0x00007fb2f81cfb58[0m[m
+  id: [34m[1m3219[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m2854[0m,[m
+  created_at: Mon, 08 Jul 2024 15:01:02.480944000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:00:00.260972000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+  posting_at: Mon, 08 Jul 2024 19:30:00.938843000 UTC +00:00,[m
+  posted_at: Mon, 08 Jul 2024 19:30:02.593122000 UTC +00:00,[m
+  succeeded_at: Thu, 11 Jul 2024 16:00:00.260982000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J29DSKFSC4SHYKN00MDKA4DD[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Mon, 08 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K [KESCESC[KOO[KBB[K  externally_reconciled_at: [36m[1mnil[0m,[m
+:[K[73551] [K  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e03c0[0m[m
+  id: [34m[1m3220[0m,[m
+  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460210[0m,[m
+  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m336[0m,[m
+  created_at: Mon, 08 Jul 2024 15:01:02.480944000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:05:00.265241000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: Thu, 11 Jul 2024 16:05:00.219162000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J29DSKGSESKBFJNR4XJSGQ2S[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Thu, 11 Jul 2024 16:00:02.636227000 UTC +00:00,[m
+:[K[73551] [K[73551]   account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e0a00[0m[m
+  id: [34m[1m3221[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m2855[0m,[m
+  created_at: Mon, 08 Jul 2024 20:10:01.262101000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:00:00.260972000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+  posting_at: Mon, 08 Jul 2024 20:15:00.883408000 UTC +00:00,[m
+  posted_at: Mon, 08 Jul 2024 20:15:02.055821000 UTC +00:00,[m
+  succeeded_at: Thu, 11 Jul 2024 16:00:00.260982000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+:[K[73551] [K  ulid: [31m[1m"[0m[31mpayt_01J29ZFBSB904P0K3V13Q7NPRS[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Mon, 08 Jul 2024 20:15:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e1040[0m[m
+  id: [34m[1m3222[0m,[m
+  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460210[0m,[m
+  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m337[0m,[m
+  created_at: Mon, 08 Jul 2024 20:10:01.262101000 UTC +00:00,[m
+  updated_at: Thu, 11 Jul 2024 16:05:00.471549000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[3[73551] 1m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: Thu, 11 Jul 2024 16:05:00.466074000 UTC +00:00,[m
+:[K[73551] [K  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J29ZFBTTD1KTEJR5TB2PWQXW[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Thu, 11 Jul 2024 16:00:02.662252000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e1680[0m[m
+  id: [34m[1m3241[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m2874[0m,[m
+  created_at: Tue, 09 Jul 2024 15:40:08.584481000 UTC +00:00,[m
+  updated_at: Fri, 12 Jul 2024 16:00:00.492828[73551] 000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+:[K[73551] [K  posting_at: Tue, 09 Jul 2024 19:30:01.151146000 UTC +00:00,[m
+  posted_at: Tue, 09 Jul 2024 19:30:02.977703000 UTC +00:00,[m
+  succeeded_at: Fri, 12 Jul 2024 16:00:00.492838000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J2C2DXKZ1MYQP8NVRY95S0EA[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Tue, 09 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e1cc0[0m[m
+  id: [34m[1m3242[0m,[m
+  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460210[0m,[m
+  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m338[0m,[m
+  created_at: Tue, 09 Jul 2024 15:40:08.584481000 UTC +00:00,[m
+:[K[73551] [K  updated_at: Fri, 12 Jul 2024 16:05:00.417213000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31msucceeded[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: Fri, 12 Jul 2024 16:05:00.413940000 UTC +00:00,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J2C2DXNDNFPXQE99GCF4WM18[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Fri, 12 Jul 2024 16:00:02.042637000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e2300[0m[m
+  id: [34m[1m3440[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[73551] [0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+:[K[73551] [K  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m3068[0m,[m
+  created_at: Fri, 19 Jul 2024 18:45:53.757774000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 18:50:01.630681000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: Fri, 19 Jul 2024 18:50:01.581334000 UTC +00:00,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36517J380E1NB0DF2GDHMES[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Fri, 19 Jul 2024 19:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e2940[0m[m
+  id: [34m[1m3441[0m,[m
+:[K[73551] [K  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460210[0m,[m
+  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m343[0m,[m
+  created_at: Fri, 19 Jul 2024 18:45:53.757774000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 18:50:01.680596000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mcanceled[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: Fri, 19 Jul 2024 18:50:01.662017000 UTC +00:00,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36517KATAV25A3PAYZRE15B[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: [36m[1mnil[0m,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: [36m[1mnil[0m,[m
+:[K[73551] [K  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e30c0[0m[m
+  id: [34m[1m3445[0m,[m
+  transaction_type: [31m[1m"[0m[31mdebit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460211[0m,[m
+  transactable_type: [31m[1m"[0m[31mAchTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m3072[0m,[m
+  created_at: Fri, 19 Jul 2024 20:23:48.207925000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 20:24:10.647149000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mabandoned[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36AMG8JM64P7XEX1CJXJ00B[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+  post_at: Fri, 19 Jul 2024 20:30:00.000000000 UTC +00:00,[m
+  account_id: [34m[1m9[0m,[m
+  posting_timed_out_at: [36m[1mnil[0m,[m
+:[K[73551] [K  externally_reconciled_at: [36m[1mnil[0m,[m
+  posting_failed_at: [36m[1mnil[0m,[m
+  abandoned_at: Fri, 19 Jul 2024 20:24:10.609757000 UTC +00:00,[m
+  failed_late_at: [36m[1mnil[0m[32m>[0m,[m
+ [32m#<PaymentTransaction:0x00007fb2f74e3700[0m[m
+  id: [34m[1m3446[0m,[m
+  transaction_type: [31m[1m"[0m[31mcredit[0m[31m[1m"[0m,[m
+  amount: [34m[1m10000[0m,[m
+  payment_method_id: [34m[1m460210[0m,[m
+  transactable_type: [31m[1m"[0m[31mWalletTransaction[0m[31m[1m"[0m,[m
+  transactable_id: [34m[1m344[0m,[m
+  created_at: Fri, 19 Jul 2024 20:23:48.207925000 UTC +00:00,[m
+  updated_at: Fri, 19 Jul 2024 20:24:10.701850000 UTC +00:00,[m
+  company_name: [31m[1m"[0m[31mJUSTWORKS[0m[31m[1m"[0m,[m
+  status: [31m[1m"[0m[31mabandoned[0m[31m[1m"[0m,[m
+  posting_at: [36m[1mnil[0m,[m
+  posted_at: [36m[1mnil[0m,[m
+  succeeded_at: [36m[1mnil[0m,[m
+  failed_at: [36m[1mnil[0m,[m
+  canceled_at: [36m[1mnil[0m,[m
+  metadata: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,[m
+  ulid: [31m[1m"[0m[31mpayt_01J36AMG8ZVCNCA2BNYD8H40Q9[0m[31m[1m"[0m,[m
+  bank_info_id: [34m[1m10[0m,[m
+:[K[73551] [K[?1l>[?2004h[73551] [6n[73551] [?25l[1G[K[1G[0mirb(main):024> [0m[?25h[16G[73551] [?25l[16G[0mq[0m[?25h[17G[73551] [0;32m✓[0m Closed connection to [0;1mpay-api-6d9549c845-49gnk[0m
