@@ -27,6 +27,4 @@ vim.opt.smartcase = true
 
 vim.g.autoformat = false
 
-vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "white"})
-vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "white"})
 
