@@ -26,4 +26,10 @@ eval "$(fzf --zsh)"
 
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+alias lz="lazygit"
+
+# commiting configuration files
 alias config='/usr/bin/git --git-dir=/Users/davidyang/.cfg/ --work-tree=/Users/davidyang'
+
+alias aws_remove_sso_cache="rm -rf ~/.aws/sso/cache/*"

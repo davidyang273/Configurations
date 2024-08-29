@@ -41,3 +41,9 @@ blue = '#7da6ff'
 magenta = '#bb9af7'
 cyan = '#0db9d7'
 white = '#acb0d0'
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]

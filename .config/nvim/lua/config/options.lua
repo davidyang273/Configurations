@@ -27,4 +27,11 @@ vim.opt.smartcase = true
 
 vim.g.autoformat = false
 
+-- Set wrapmargin to 0
+vim.opt.wrapmargin = 0
 
+-- Enable line wrapping
+vim.opt.wrap = true
+
+-- Enable linebreak
+vim.opt.linebreak = true

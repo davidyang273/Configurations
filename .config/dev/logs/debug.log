@@ -95,3 +95,648 @@ D, [2024-07-19T16:01:29.647559 #32205] DEBUG -- : [82698] [0mrunning pods with 
 D, [2024-07-19T16:17:58.246310 #61983] DEBUG -- : [0mcurrent branch is main
 D, [2024-07-19T16:17:58.883223 #61983] DEBUG -- : [0mno new commits
 D, [2024-07-19T16:17:59.424629 #62144] DEBUG -- : [73551] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:13:46.348507 #98038] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T16:13:47.122572 #98038] DEBUG -- : [0mno new commits
+D, [2024-07-24T16:13:47.523603 #98193] DEBUG -- : [07225] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:13:47.587127 #98193] DEBUG -- : [07225] [0minstall-aws-cli: task met on first try
+D, [2024-07-24T16:13:47.630185 #98193] DEBUG -- : [07225] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-24T16:13:47.633512 #98193] DEBUG -- : [07225] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:13:50.378363 #98193] DEBUG -- : [07225] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:15:57.058926 #262] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T16:15:57.806136 #262] DEBUG -- : [0mno new commits
+D, [2024-07-24T16:15:58.396958 #482] DEBUG -- : [06998] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:15:58.420651 #482] DEBUG -- : [06998] [0minstall-aws-cli: task met on first try
+D, [2024-07-24T16:15:58.430983 #482] DEBUG -- : [06998] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-24T16:15:58.433436 #482] DEBUG -- : [06998] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:16:01.218788 #482] DEBUG -- : [06998] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:16:06.536632 #482] DEBUG -- : [06998] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:16:07.654670 #482] DEBUG -- : [06998] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-24T16:16:34.046361 #1376] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T16:16:34.783296 #1376] DEBUG -- : [0mno new commits
+D, [2024-07-24T16:16:35.382291 #1522] DEBUG -- : [44046] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:16:35.405699 #1522] DEBUG -- : [44046] [0minstall-aws-cli: task met on first try
+D, [2024-07-24T16:16:35.428169 #1522] DEBUG -- : [44046] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-24T16:16:35.436502 #1522] DEBUG -- : [44046] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:16:38.048147 #1522] DEBUG -- : [44046] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-24T16:16:38.048651 #1522] DEBUG -- : [44046] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:16:39.098573 #1522] DEBUG -- : [44046] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-24T16:16:53.093639 #1919] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T16:16:53.875289 #1919] DEBUG -- : [0mno new commits
+D, [2024-07-24T16:16:54.516047 #2063] DEBUG -- : [95434] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-24T16:17:14.275234 #2496] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T16:17:15.051547 #2496] DEBUG -- : [0mno new commits
+D, [2024-07-24T16:17:15.520401 #2658] DEBUG -- : [24009] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-07-24T17:10:48.060714 #73787] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T17:10:48.886395 #73787] DEBUG -- : [0mno new commits
+D, [2024-07-24T17:10:56.620113 #74149] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T17:10:57.220392 #74149] DEBUG -- : [0mno new commits
+D, [2024-07-24T17:10:57.724249 #74292] DEBUG -- : [71227] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-07-24T18:16:27.522115 #2672] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T18:16:28.958640 #2672] DEBUG -- : [0mno new commits
+D, [2024-07-24T18:16:30.194045 #2803] DEBUG -- : [81396] [0mrunning aws with args: ["login"] in /Users/davidyang
+D, [2024-07-24T18:16:30.334780 #2803] DEBUG -- : [81396] [0minstall-aws-cli: task met on first try
+D, [2024-07-24T18:16:30.425667 #2803] DEBUG -- : [81396] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-24T18:16:30.442043 #2803] DEBUG -- : [81396] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang
+D, [2024-07-24T18:16:34.485008 #2803] DEBUG -- : [81396] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-24T18:16:34.485490 #2803] DEBUG -- : [81396] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang
+D, [2024-07-24T18:16:35.631668 #2803] DEBUG -- : [81396] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-24T18:16:46.415452 #2953] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T18:16:47.164025 #2953] DEBUG -- : [0mno new commits
+D, [2024-07-24T18:16:47.761436 #3073] DEBUG -- : [55724] [0mrunning eks with args: [] in /Users/davidyang
+D, [2024-07-24T18:38:35.899477 #6663] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T18:38:36.629433 #6663] DEBUG -- : [0mno new commits
+D, [2024-07-24T18:38:41.274120 #6898] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T18:38:41.904790 #6898] DEBUG -- : [0mno new commits
+D, [2024-07-24T18:38:42.389414 #7021] DEBUG -- : [07817] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang
+D, [2024-07-24T19:07:53.183421 #9570] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T19:07:53.978048 #9570] DEBUG -- : [0mno new commits
+D, [2024-07-24T19:07:54.666391 #9697] DEBUG -- : [25515] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang
+D, [2024-07-24T19:15:05.926735 #10230] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-24T19:15:06.628030 #10230] DEBUG -- : [0mno new commits
+D, [2024-07-24T19:15:07.144950 #10350] DEBUG -- : [90174] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang
+D, [2024-07-25T14:13:30.208277 #29361] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-25T14:13:30.831710 #29361] DEBUG -- : [0mno new commits
+D, [2024-07-25T14:13:31.512753 #29490] DEBUG -- : [73651] [0mrunning up with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-25T14:13:31.578540 #29490] DEBUG -- : [73651] [0mhomebrew: task met on first try
+D, [2024-07-25T14:13:33.566565 #29490] DEBUG -- : [73651] [0mset-up-docker-desktop: task met on first try
+D, [2024-07-25T14:13:33.593616 #29490] DEBUG -- : [73651] [0mruby: task met on first try
+D, [2024-07-25T14:13:34.075751 #29490] DEBUG -- : [73651] [0mensure-bundler-version: task met on first try
+D, [2024-07-25T14:13:34.089697 #29490] DEBUG -- : [73651] [0mupdate-bundle-sidekiq-credentials: task met on first try
+D, [2024-07-25T14:13:34.398392 #29490] DEBUG -- : [73651] [0mbundler: task met on first try
+D, [2024-07-25T14:13:34.407381 #29490] DEBUG -- : [73651] [0mset-up-tmp-sockets-directory: task met on first try
+D, [2024-07-25T14:13:34.415924 #29490] DEBUG -- : [73651] [0mtouch-env-local: task met on first try
+D, [2024-07-25T14:13:35.613269 #29490] DEBUG -- : [73651] [0mconfigure-aws: task met on first try
+D, [2024-07-25T14:13:35.681121 #29490] DEBUG -- : [73651] [0mstart-docker-dependencies: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-25T14:13:45.228752 #29677] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-25T14:13:45.910965 #29677] DEBUG -- : [0mno new commits
+D, [2024-07-25T14:13:46.321569 #29813] DEBUG -- : [90838] [0mrunning up with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-25T14:13:46.347546 #29813] DEBUG -- : [90838] [0mhomebrew: task met on first try
+D, [2024-07-25T14:13:46.436410 #29813] DEBUG -- : [90838] [0mset-up-docker-desktop: task met on first try
+D, [2024-07-25T14:13:46.462887 #29813] DEBUG -- : [90838] [0mruby: task met on first try
+D, [2024-07-25T14:13:46.977844 #29813] DEBUG -- : [90838] [0mensure-bundler-version: task met on first try
+D, [2024-07-25T14:13:46.991732 #29813] DEBUG -- : [90838] [0mupdate-bundle-sidekiq-credentials: task met on first try
+D, [2024-07-25T14:13:47.314511 #29813] DEBUG -- : [90838] [0mbundler: task met on first try
+D, [2024-07-25T14:13:47.323945 #29813] DEBUG -- : [90838] [0mset-up-tmp-sockets-directory: task met on first try
+D, [2024-07-25T14:13:47.332839 #29813] DEBUG -- : [90838] [0mtouch-env-local: task met on first try
+D, [2024-07-25T14:13:48.739581 #29813] DEBUG -- : [90838] [0mconfigure-aws: task met on first try
+D, [2024-07-25T14:13:53.804281 #29813] DEBUG -- : [90838] [0mstart-docker-dependencies: task met on first try
+D, [2024-07-25T14:13:53.819629 #29813] DEBUG -- : [90838] [0mprepare-the-database: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-25T14:14:04.033629 #29813] DEBUG -- : [90838] [0mnpm-install: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:05:02.055949 #11942] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-29T13:05:02.806467 #11942] DEBUG -- : [0mno new commits
+D, [2024-07-29T13:05:03.408781 #12072] DEBUG -- : [62067] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:05:03.430432 #12072] DEBUG -- : [62067] [0minstall-aws-cli: task met on first try
+D, [2024-07-29T13:05:03.445266 #12072] DEBUG -- : [62067] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-29T13:05:03.447750 #12072] DEBUG -- : [62067] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:05:06.262541 #12072] DEBUG -- : [62067] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:09:06.904234 #12072] DEBUG -- : [62067] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:09:07.951498 #12072] DEBUG -- : [62067] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-29T13:09:34.767397 #12817] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-29T13:09:35.563859 #12817] DEBUG -- : [0mno new commits
+D, [2024-07-29T13:09:36.414523 #12945] DEBUG -- : [37426] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:10:23.295299 #13142] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-29T13:10:24.039926 #13142] DEBUG -- : [0mno new commits
+D, [2024-07-29T13:10:31.567122 #13309] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-29T13:10:32.268940 #13309] DEBUG -- : [0mno new commits
+D, [2024-07-29T13:10:33.059166 #13437] DEBUG -- : [29103] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-07-29T13:13:41.445959 #13798] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-29T13:13:42.172377 #13798] DEBUG -- : [0mno new commits
+D, [2024-07-29T13:13:42.797928 #13926] DEBUG -- : [27204] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-07-30T12:57:42.418505 #83317] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T12:57:43.208843 #83317] DEBUG -- : [0mno new commits
+D, [2024-07-30T12:57:43.817275 #83462] DEBUG -- : [26714] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-30T12:57:43.842533 #83462] DEBUG -- : [26714] [0minstall-aws-cli: task met on first try
+D, [2024-07-30T12:57:43.856232 #83462] DEBUG -- : [26714] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-30T12:57:43.858738 #83462] DEBUG -- : [26714] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-30T12:57:47.112985 #83462] DEBUG -- : [26714] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-30T12:57:58.517706 #83462] DEBUG -- : [26714] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-30T12:57:59.625846 #83462] DEBUG -- : [26714] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-30T12:59:31.158765 #85459] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T12:59:31.724511 #85459] DEBUG -- : [0mno new commits
+D, [2024-07-30T12:59:32.256275 #85608] DEBUG -- : [07148] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-30T12:59:37.438895 #85822] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T12:59:37.956624 #85822] DEBUG -- : [0mno new commits
+D, [2024-07-30T12:59:38.292442 #85962] DEBUG -- : [95168] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-30T13:00:22.971452 #86815] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T13:00:23.614598 #86815] DEBUG -- : [0mno new commits
+D, [2024-07-30T13:00:24.175575 #86974] DEBUG -- : [44904] [0mrunning pods with args: ["-n", "payments-sandbox"] in /Users/davidyang/Documents/pay
+D, [2024-07-30T15:57:52.094375 #98898] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T15:57:52.792072 #98898] DEBUG -- : [0mno new commits
+D, [2024-07-30T15:57:53.334772 #99045] DEBUG -- : [19101] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-30T15:57:53.364727 #99045] DEBUG -- : [19101] [0minstall-aws-cli: task met on first try
+D, [2024-07-30T15:57:53.381726 #99045] DEBUG -- : [19101] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-30T15:57:53.384373 #99045] DEBUG -- : [19101] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-30T15:57:55.909709 #99045] DEBUG -- : [19101] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-30T15:57:55.910170 #99045] DEBUG -- : [19101] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-30T15:57:57.303244 #99045] DEBUG -- : [19101] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-30T15:58:05.615052 #99378] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T15:58:06.341264 #99378] DEBUG -- : [0mno new commits
+D, [2024-07-30T15:58:06.866725 #99523] DEBUG -- : [90803] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-30T15:58:17.198333 #99818] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T15:58:17.849449 #99818] DEBUG -- : [0mno new commits
+D, [2024-07-30T15:58:27.019069 #336] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-30T15:58:27.503926 #336] DEBUG -- : [0mno new commits
+D, [2024-07-30T15:58:27.994203 #614] DEBUG -- : [28479] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:22:21.112879 #18828] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:22:21.855511 #18828] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:22:22.354388 #19029] DEBUG -- : [24141] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:22:22.374801 #19029] DEBUG -- : [24141] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:22:22.383319 #19029] DEBUG -- : [24141] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:22:22.385827 #19029] DEBUG -- : [24141] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:22:24.827436 #19029] DEBUG -- : [24141] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:22:24.828056 #19029] DEBUG -- : [24141] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:22:25.750210 #19029] DEBUG -- : [24141] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:22:46.184651 #20237] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:22:46.899193 #20237] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:22:47.527448 #20424] DEBUG -- : [30848] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:22:57.813708 #20969] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:22:58.576268 #20969] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:22:59.020275 #21161] DEBUG -- : [11315] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:22:59.044338 #21161] DEBUG -- : [11315] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:22:59.056395 #21161] DEBUG -- : [11315] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:22:59.061122 #21161] DEBUG -- : [11315] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:23:01.464267 #21161] DEBUG -- : [11315] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:23:01.464842 #21161] DEBUG -- : [11315] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:23:02.323908 #21161] DEBUG -- : [11315] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:23:14.793462 #21971] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:23:15.553103 #21971] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:23:16.147755 #22166] DEBUG -- : [09733] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:23:25.768050 #22843] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:23:26.477810 #22843] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:23:27.033093 #23041] DEBUG -- : [74148] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:23:27.049701 #23041] DEBUG -- : [74148] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:23:27.061683 #23041] DEBUG -- : [74148] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:23:27.063315 #23041] DEBUG -- : [74148] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:23:29.564586 #23041] DEBUG -- : [74148] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:23:29.565146 #23041] DEBUG -- : [74148] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:23:30.500037 #23041] DEBUG -- : [74148] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:23:38.605794 #23699] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:23:39.407827 #23699] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:23:39.797189 #23891] DEBUG -- : [36290] [0mrunning eks with args: [] in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:24:08.005579 #25188] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:24:08.730197 #25188] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:24:09.162742 #25391] DEBUG -- : [35577] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:24:09.180024 #25391] DEBUG -- : [35577] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:24:09.196290 #25391] DEBUG -- : [35577] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:24:09.197738 #25391] DEBUG -- : [35577] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:24:11.595204 #25391] DEBUG -- : [35577] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:24:11.595688 #25391] DEBUG -- : [35577] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:24:12.441905 #25391] DEBUG -- : [35577] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:24:24.185799 #26922] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:24:24.607386 #26922] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:24:24.918603 #27154] DEBUG -- : [31177] [0mrunning eks with args: [] in /Users/davidyang/Documents/Neon/banksy
+D, [2024-07-31T14:24:42.725332 #28188] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:24:43.215596 #28188] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:24:43.549247 #28360] DEBUG -- : [90389] [0mrunning aws with args: ["login"] in /Users/davidyang
+D, [2024-07-31T14:24:43.569980 #28360] DEBUG -- : [90389] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:24:43.584667 #28360] DEBUG -- : [90389] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:24:43.586115 #28360] DEBUG -- : [90389] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:24:46.084226 #28360] DEBUG -- : [90389] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:24:46.084805 #28360] DEBUG -- : [90389] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:24:46.959371 #28360] DEBUG -- : [90389] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:24:54.788970 #28963] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:24:55.387242 #28963] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:24:55.942682 #29131] DEBUG -- : [82419] [0mrunning eks with args: [] in /Users/davidyang
+D, [2024-07-31T14:26:13.561927 #33179] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:26:14.150059 #33179] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:26:14.600027 #33347] DEBUG -- : [29920] [0mrunning aws with args: ["login"] in /Users/davidyang
+D, [2024-07-31T14:26:14.622742 #33347] DEBUG -- : [29920] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:26:14.643658 #33347] DEBUG -- : [29920] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:26:14.645391 #33347] DEBUG -- : [29920] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:26:17.108755 #33347] DEBUG -- : [29920] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:26:17.109257 #33347] DEBUG -- : [29920] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:26:18.004421 #33347] DEBUG -- : [29920] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:26:35.684987 #34480] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:26:36.349795 #34480] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:26:36.919560 #34648] DEBUG -- : [56521] [0mrunning aws with args: ["login"] in /Users/davidyang
+D, [2024-07-31T14:26:36.934981 #34648] DEBUG -- : [56521] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:26:36.945693 #34648] DEBUG -- : [56521] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:26:36.947007 #34648] DEBUG -- : [56521] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:26:39.410255 #34648] DEBUG -- : [56521] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:26:39.410843 #34648] DEBUG -- : [56521] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:26:40.318596 #34648] DEBUG -- : [56521] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:26:47.970745 #35258] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:26:48.639989 #35258] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:26:49.161567 #35427] DEBUG -- : [72728] [0mrunning eks with args: [] in /Users/davidyang
+D, [2024-07-31T14:27:18.566700 #36993] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:27:19.453089 #36993] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:27:19.857585 #37172] DEBUG -- : [35997] [0mrunning aws with args: ["login"] in /Users/davidyang
+D, [2024-07-31T14:27:19.873348 #37172] DEBUG -- : [35997] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:27:19.883436 #37172] DEBUG -- : [35997] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:27:19.884925 #37172] DEBUG -- : [35997] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:27:22.302208 #37172] DEBUG -- : [35997] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:27:22.302767 #37172] DEBUG -- : [35997] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang
+D, [2024-07-31T14:27:23.051093 #37172] DEBUG -- : [35997] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:27:33.279247 #37909] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:27:33.877842 #37909] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:27:34.215194 #38077] DEBUG -- : [29195] [0mrunning eks with args: [] in /Users/davidyang
+D, [2024-07-31T14:29:36.963501 #43428] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:29:37.665864 #43428] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:29:38.433466 #43604] DEBUG -- : [51030] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:29:38.451780 #43604] DEBUG -- : [51030] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:29:38.467157 #43604] DEBUG -- : [51030] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:29:38.470171 #43604] DEBUG -- : [51030] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:29:40.924250 #43604] DEBUG -- : [51030] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:29:40.924843 #43604] DEBUG -- : [51030] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:29:41.760003 #43604] DEBUG -- : [51030] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:29:49.879919 #44224] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:29:50.599690 #44224] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:29:51.180982 #44399] DEBUG -- : [52875] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:30:16.135241 #45576] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:30:16.908146 #45576] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:30:17.642083 #45766] DEBUG -- : [66610] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:30:17.673794 #45766] DEBUG -- : [66610] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:30:17.686661 #45766] DEBUG -- : [66610] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:30:17.689321 #45766] DEBUG -- : [66610] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:30:20.103549 #45766] DEBUG -- : [66610] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:30:20.104173 #45766] DEBUG -- : [66610] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:30:20.972412 #45766] DEBUG -- : [66610] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:30:39.843053 #46882] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:30:40.563100 #46882] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:30:41.097074 #47059] DEBUG -- : [01477] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:33:28.150752 #54644] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:33:28.922361 #54644] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:33:29.509857 #54826] DEBUG -- : [50942] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:33:36.891323 #55260] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:33:37.586669 #55260] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:33:38.067483 #55449] DEBUG -- : [27293] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:33:38.090378 #55449] DEBUG -- : [27293] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:33:38.109318 #55449] DEBUG -- : [27293] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:33:38.112178 #55449] DEBUG -- : [27293] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:33:40.595857 #55449] DEBUG -- : [27293] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-07-31T14:33:40.596341 #55449] DEBUG -- : [27293] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:33:41.483130 #55449] DEBUG -- : [27293] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:33:55.938027 #56430] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:33:56.659894 #56430] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:33:57.200130 #56607] DEBUG -- : [03505] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:34:16.684131 #57558] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:34:17.482811 #57558] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:34:17.983806 #57739] DEBUG -- : [26100] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:36:53.788540 #64615] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:36:54.249312 #64615] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:36:54.846371 #64796] DEBUG -- : [88894] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:36:54.860758 #64796] DEBUG -- : [88894] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:36:54.871368 #64796] DEBUG -- : [88894] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:36:54.874070 #64796] DEBUG -- : [88894] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:36:57.306227 #64796] DEBUG -- : [88894] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:37:09.803797 #65558] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:37:10.772921 #65558] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:37:11.546868 #65752] DEBUG -- : [30738] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:37:11.596924 #65752] DEBUG -- : [30738] [0minstall-aws-cli: task met on first try
+D, [2024-07-31T14:37:11.628710 #65752] DEBUG -- : [30738] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-07-31T14:37:11.635617 #65752] DEBUG -- : [30738] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:37:14.438538 #65752] DEBUG -- : [30738] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:37:18.629574 #65752] DEBUG -- : [30738] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:37:19.550673 #65752] DEBUG -- : [30738] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-07-31T14:37:27.970882 #66637] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:37:28.696987 #66637] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:37:29.171567 #66812] DEBUG -- : [37855] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:38:07.642038 #68837] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:38:08.322310 #68837] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:38:08.801124 #69019] DEBUG -- : [85624] [0mrunning pods with args: ["-n", "payments-sandbox"] in /Users/davidyang/Documents/pay
+D, [2024-07-31T14:38:13.247987 #69326] DEBUG -- : [0mcurrent branch is main
+D, [2024-07-31T14:38:13.901622 #69326] DEBUG -- : [0mno new commits
+D, [2024-07-31T14:38:14.320845 #69508] DEBUG -- : [24646] [0mrunning pods with args: ["-n", "payments"] in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:47:51.926047 #3925] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-05T17:47:52.936340 #3925] DEBUG -- : [0mno new commits
+D, [2024-08-05T17:47:53.831131 #4102] DEBUG -- : [89291] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:47:53.877219 #4102] DEBUG -- : [89291] [0minstall-aws-cli: task met on first try
+D, [2024-08-05T17:47:53.898704 #4102] DEBUG -- : [89291] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-05T17:47:53.901984 #4102] DEBUG -- : [89291] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:47:57.528377 #4102] DEBUG -- : [89291] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:48:05.921779 #4102] DEBUG -- : [89291] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:48:06.990136 #4102] DEBUG -- : [89291] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-05T17:49:08.103698 #7414] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-05T17:49:08.654143 #7414] DEBUG -- : [0mno new commits
+D, [2024-08-05T17:49:09.120586 #7569] DEBUG -- : [26850] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:49:09.140581 #7569] DEBUG -- : [26850] [0minstall-aws-cli: task met on first try
+D, [2024-08-05T17:49:09.151955 #7569] DEBUG -- : [26850] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-05T17:49:09.154833 #7569] DEBUG -- : [26850] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:49:11.618291 #7569] DEBUG -- : [26850] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-05T17:49:11.618902 #7569] DEBUG -- : [26850] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:49:12.483391 #7569] DEBUG -- : [26850] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-05T17:49:21.819074 #8281] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-05T17:49:22.553762 #8281] DEBUG -- : [0mno new commits
+D, [2024-08-05T17:49:23.113014 #8452] DEBUG -- : [78140] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-05T17:49:57.234129 #10025] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-05T17:49:57.940596 #10025] DEBUG -- : [0mno new commits
+D, [2024-08-05T17:49:58.421023 #10210] DEBUG -- : [15500] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-08T14:20:36.042232 #32570] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-08T14:20:37.058218 #32570] DEBUG -- : [0mno new commits
+D, [2024-08-08T14:20:37.849521 #32698] DEBUG -- : [23063] [0mrunning up with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-08T14:20:37.934642 #32698] DEBUG -- : [23063] [0mhomebrew: task met on first try
+D, [2024-08-08T14:20:39.609212 #32698] DEBUG -- : [23063] [0mset-up-docker-desktop: task met on first try
+D, [2024-08-08T14:20:39.639114 #32698] DEBUG -- : [23063] [0mruby: task met on first try
+D, [2024-08-08T14:20:40.148465 #32698] DEBUG -- : [23063] [0mensure-bundler-version: task met on first try
+D, [2024-08-08T14:20:40.162568 #32698] DEBUG -- : [23063] [0mupdate-bundle-sidekiq-credentials: task met on first try
+D, [2024-08-08T14:20:40.474782 #32698] DEBUG -- : [23063] [0mbundler: task met on first try
+D, [2024-08-08T14:20:40.483803 #32698] DEBUG -- : [23063] [0mset-up-tmp-sockets-directory: task met on first try
+D, [2024-08-08T14:20:40.492423 #32698] DEBUG -- : [23063] [0mtouch-env-local: task met on first try
+D, [2024-08-08T14:20:46.495989 #32698] DEBUG -- : [23063] [0mconfigure-aws: task met on first try
+D, [2024-08-08T14:20:46.590407 #32698] DEBUG -- : [23063] [0mstart-docker-dependencies: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-08T14:22:14.236584 #33025] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-08T14:22:15.003294 #33025] DEBUG -- : [0mno new commits
+D, [2024-08-08T14:22:15.996368 #33167] DEBUG -- : [12129] [0mrunning up with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-08T14:22:16.068843 #33167] DEBUG -- : [12129] [0mhomebrew: task met on first try
+D, [2024-08-08T14:22:16.193905 #33167] DEBUG -- : [12129] [0mset-up-docker-desktop: task met on first try
+D, [2024-08-08T14:22:16.241681 #33167] DEBUG -- : [12129] [0mruby: task met on first try
+D, [2024-08-08T14:22:17.010332 #33167] DEBUG -- : [12129] [0mensure-bundler-version: task met on first try
+D, [2024-08-08T14:22:17.026307 #33167] DEBUG -- : [12129] [0mupdate-bundle-sidekiq-credentials: task met on first try
+D, [2024-08-08T14:22:17.372817 #33167] DEBUG -- : [12129] [0mbundler: task met on first try
+D, [2024-08-08T14:22:17.381974 #33167] DEBUG -- : [12129] [0mset-up-tmp-sockets-directory: task met on first try
+D, [2024-08-08T14:22:17.390597 #33167] DEBUG -- : [12129] [0mtouch-env-local: task met on first try
+D, [2024-08-08T14:22:18.761412 #33167] DEBUG -- : [12129] [0mconfigure-aws: task met on first try
+D, [2024-08-08T14:22:18.855521 #33167] DEBUG -- : [12129] [0mstart-docker-dependencies: task met on first try
+D, [2024-08-08T14:22:18.858335 #33167] DEBUG -- : [12129] [0mprepare-the-database: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-08T14:22:25.647248 #33167] DEBUG -- : [12129] [0mnpm-install: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:32:02.194081 #34825] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-12T14:32:03.040029 #34825] DEBUG -- : [0mno new commits
+D, [2024-08-12T14:32:03.807684 #34953] DEBUG -- : [19778] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:32:03.823666 #34953] DEBUG -- : [19778] [0minstall-aws-cli: task met on first try
+D, [2024-08-12T14:32:03.833319 #34953] DEBUG -- : [19778] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-12T14:32:03.835876 #34953] DEBUG -- : [19778] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:32:06.212884 #34953] DEBUG -- : [19778] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:32:44.514209 #34953] DEBUG -- : [19778] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:32:45.543028 #34953] DEBUG -- : [19778] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-12T14:33:21.602261 #35214] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-12T14:33:22.335592 #35214] DEBUG -- : [0mno new commits
+D, [2024-08-12T14:33:23.027450 #35342] DEBUG -- : [93671] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:33:40.591061 #35493] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-12T14:33:41.314275 #35493] DEBUG -- : [0mno new commits
+D, [2024-08-12T14:33:42.221965 #35624] DEBUG -- : [57877] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-12T14:45:44.246203 #36951] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-15T15:02:43.326717 #65115] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-15T15:02:44.236351 #65115] DEBUG -- : [0mno new commits
+D, [2024-08-15T15:02:45.164929 #65264] DEBUG -- : [79877] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-15T15:02:45.235512 #65264] DEBUG -- : [79877] [0minstall-aws-cli: task met on first try
+D, [2024-08-15T15:02:45.289943 #65264] DEBUG -- : [79877] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-15T15:02:45.295810 #65264] DEBUG -- : [79877] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-15T15:02:49.138106 #65264] DEBUG -- : [79877] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-15T15:03:36.840647 #65264] DEBUG -- : [79877] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-15T15:03:37.964136 #65264] DEBUG -- : [79877] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-15T15:04:10.048044 #66612] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-15T15:04:12.402524 #66775] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-15T15:04:13.110668 #66775] DEBUG -- : [0mno new commits
+D, [2024-08-15T15:04:13.674521 #66918] DEBUG -- : [07687] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-15T15:04:36.666712 #67373] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-15T15:04:37.601432 #67373] DEBUG -- : [0mno new commits
+D, [2024-08-15T15:04:38.942964 #67529] DEBUG -- : [08057] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-15T15:34:13.764960 #96663] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-15T15:34:14.491865 #96663] DEBUG -- : [0mno new commits
+D, [2024-08-15T15:34:15.026379 #96808] DEBUG -- : [35166] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:50:22.253168 #17128] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:50:23.352968 #17128] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:50:24.071079 #17292] DEBUG -- : [87679] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:50:24.097319 #17292] DEBUG -- : [87679] [0minstall-aws-cli: task met on first try
+D, [2024-08-21T12:50:24.116945 #17292] DEBUG -- : [87679] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-21T12:50:24.120118 #17292] DEBUG -- : [87679] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:50:27.271487 #17292] DEBUG -- : [87679] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:51:02.377012 #17292] DEBUG -- : [87679] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:51:03.516150 #17292] DEBUG -- : [87679] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-21T12:51:18.479759 #19074] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:51:19.305466 #19074] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:51:19.752017 #19238] DEBUG -- : [77852] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:51:32.075703 #19731] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:51:32.683003 #19731] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:51:33.281341 #19896] DEBUG -- : [14975] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:52:43.806095 #22193] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:52:44.535005 #22193] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:52:45.072620 #22357] DEBUG -- : [95587] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:52:45.100611 #22357] DEBUG -- : [95587] [0minstall-aws-cli: task met on first try
+D, [2024-08-21T12:52:45.115871 #22357] DEBUG -- : [95587] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-21T12:52:45.118665 #22357] DEBUG -- : [95587] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:52:47.794816 #22357] DEBUG -- : [95587] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-21T12:52:47.795370 #22357] DEBUG -- : [95587] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:52:48.701841 #22357] DEBUG -- : [95587] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-21T12:53:01.796784 #23008] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:53:02.376921 #23008] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:53:02.723177 #23173] DEBUG -- : [88295] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:53:25.457349 #23948] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:53:26.277096 #23948] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:53:26.837698 #24109] DEBUG -- : [83311] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:53:33.424780 #24437] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:53:33.894479 #24437] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:53:34.409142 #24614] DEBUG -- : [60141] [0mrunning pods with args: ["-n", "payments_sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:08.174983 #25736] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:54:09.128520 #25736] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:54:10.375647 #25905] DEBUG -- : [95428] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:10.397181 #25905] DEBUG -- : [95428] [0minstall-aws-cli: task met on first try
+D, [2024-08-21T12:54:10.406539 #25905] DEBUG -- : [95428] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-21T12:54:10.408813 #25905] DEBUG -- : [95428] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:13.183487 #25905] DEBUG -- : [95428] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-21T12:54:13.183978 #25905] DEBUG -- : [95428] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:14.189609 #25905] DEBUG -- : [95428] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-21T12:54:29.212486 #26597] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:54:29.939469 #26597] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:54:30.350943 #26767] DEBUG -- : [34625] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:30.366925 #26767] DEBUG -- : [34625] [0minstall-aws-cli: task met on first try
+D, [2024-08-21T12:54:30.377001 #26767] DEBUG -- : [34625] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-21T12:54:30.379338 #26767] DEBUG -- : [34625] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:32.783259 #26767] DEBUG -- : [34625] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-21T12:54:32.783774 #26767] DEBUG -- : [34625] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:33.562875 #26767] DEBUG -- : [34625] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-21T12:54:42.834285 #27307] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:54:43.547709 #27307] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:54:43.996860 #27464] DEBUG -- : [61588] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:54:55.765898 #27933] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:54:56.428661 #27933] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:54:56.963098 #28095] DEBUG -- : [69339] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:55:20.686522 #28942] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:55:21.346308 #28942] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:55:21.858507 #29104] DEBUG -- : [96515] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:55:21.874041 #29104] DEBUG -- : [96515] [0minstall-aws-cli: task met on first try
+D, [2024-08-21T12:55:21.884151 #29104] DEBUG -- : [96515] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-21T12:55:21.886368 #29104] DEBUG -- : [96515] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:55:24.374333 #29104] DEBUG -- : [96515] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-21T12:55:24.374897 #29104] DEBUG -- : [96515] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:55:25.294933 #29104] DEBUG -- : [96515] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-21T12:55:34.175040 #29616] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:55:34.815857 #29616] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:55:35.380913 #29784] DEBUG -- : [54596] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:55:44.926242 #30195] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:55:45.610464 #30195] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:55:46.184736 #30356] DEBUG -- : [52749] [0mrunning pods with args: ["-payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T12:55:52.380004 #30679] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T12:55:53.146467 #30679] DEBUG -- : [0mno new commits
+D, [2024-08-21T12:55:53.921774 #30849] DEBUG -- : [21359] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T13:43:56.513924 #17905] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T13:43:57.549555 #17905] DEBUG -- : [0mno new commits
+D, [2024-08-21T13:43:58.488447 #18082] DEBUG -- : [87710] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T13:43:58.558989 #18082] DEBUG -- : [87710] [0minstall-aws-cli: task met on first try
+D, [2024-08-21T13:43:58.586882 #18082] DEBUG -- : [87710] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-21T13:43:58.596119 #18082] DEBUG -- : [87710] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T13:44:01.411798 #18082] DEBUG -- : [87710] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-21T13:44:01.412324 #18082] DEBUG -- : [87710] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-21T13:44:02.465295 #18082] DEBUG -- : [87710] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-21T13:44:20.433058 #18884] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T13:44:21.492658 #18884] DEBUG -- : [0mno new commits
+D, [2024-08-21T13:44:22.054508 #19062] DEBUG -- : [54496] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-21T13:44:34.652026 #19585] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T13:44:35.814550 #19585] DEBUG -- : [0mno new commits
+D, [2024-08-21T13:44:36.379608 #19753] DEBUG -- : [18771] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-21T14:27:30.444213 #21218] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-21T14:27:31.415175 #21218] DEBUG -- : [0mno new commits
+D, [2024-08-21T14:27:32.026273 #21387] DEBUG -- : [97990] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:12:11.506810 #59227] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:12:12.247153 #59227] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:12:12.823117 #59390] DEBUG -- : [47200] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:12:12.848450 #59390] DEBUG -- : [47200] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:12:12.864867 #59390] DEBUG -- : [47200] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:12:12.868432 #59390] DEBUG -- : [47200] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:12:16.118638 #59390] DEBUG -- : [47200] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:12:16.119134 #59390] DEBUG -- : [47200] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:12:17.137055 #59390] DEBUG -- : [47200] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:12:59.883052 #60917] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:13:00.719662 #60917] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:13:01.231556 #61098] DEBUG -- : [66123] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:13:21.029550 #61812] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:13:21.923430 #61812] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:13:22.456482 #61979] DEBUG -- : [63828] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:13:22.482535 #61979] DEBUG -- : [63828] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:13:22.499777 #61979] DEBUG -- : [63828] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:13:22.502235 #61979] DEBUG -- : [63828] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:13:25.007819 #61979] DEBUG -- : [63828] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:13:25.008379 #61979] DEBUG -- : [63828] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:13:25.744895 #61979] DEBUG -- : [63828] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:13:50.210354 #62969] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:13:50.788680 #62969] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:13:51.503300 #63129] DEBUG -- : [06607] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:14:10.975452 #64370] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:14:11.669961 #64370] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:14:12.213663 #64532] DEBUG -- : [44367] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:14:12.236506 #64532] DEBUG -- : [44367] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:14:12.251521 #64532] DEBUG -- : [44367] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:14:12.254420 #64532] DEBUG -- : [44367] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:14:14.829355 #64532] DEBUG -- : [44367] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:14:14.829862 #64532] DEBUG -- : [44367] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:14:15.662699 #64532] DEBUG -- : [44367] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:14:24.753877 #65036] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:14:25.544355 #65036] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:14:25.990536 #65219] DEBUG -- : [78924] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:15:11.510728 #67226] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:15:12.191688 #67226] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:15:12.530694 #67399] DEBUG -- : [88252] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:15:12.548460 #67399] DEBUG -- : [88252] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:15:12.558172 #67399] DEBUG -- : [88252] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:15:12.561008 #67399] DEBUG -- : [88252] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:15:15.391784 #67399] DEBUG -- : [88252] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:15:15.392369 #67399] DEBUG -- : [88252] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:15:16.290152 #67399] DEBUG -- : [88252] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:15:24.696474 #67913] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:15:25.502650 #67913] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:15:25.907112 #68077] DEBUG -- : [27009] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:16:21.094749 #70673] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:16:21.793224 #70673] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:16:22.312758 #70833] DEBUG -- : [02272] [0mrunning aws with args: ["logn"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:16:26.411791 #71103] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:16:26.852921 #71103] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:16:27.366764 #71275] DEBUG -- : [60245] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:16:27.390652 #71275] DEBUG -- : [60245] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:16:27.408004 #71275] DEBUG -- : [60245] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:16:27.411853 #71275] DEBUG -- : [60245] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:16:30.095512 #71275] DEBUG -- : [60245] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:16:30.096165 #71275] DEBUG -- : [60245] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:16:30.926238 #71275] DEBUG -- : [60245] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:16:42.103413 #71842] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:16:42.886871 #71842] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:16:43.608335 #72003] DEBUG -- : [57052] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:17:04.407554 #72751] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:17:05.088534 #72751] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:17:05.369748 #72913] DEBUG -- : [16695] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:19:33.354600 #78055] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:19:34.321281 #78055] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:19:35.184904 #78226] DEBUG -- : [63061] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:19:35.200284 #78226] DEBUG -- : [63061] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:19:35.215711 #78226] DEBUG -- : [63061] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:19:35.224616 #78226] DEBUG -- : [63061] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:19:38.189101 #78226] DEBUG -- : [63061] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:19:38.189724 #78226] DEBUG -- : [63061] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:19:39.182771 #78226] DEBUG -- : [63061] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:19:56.202284 #78993] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:19:57.044916 #78993] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:19:57.585087 #79176] DEBUG -- : [01183] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:20:13.467761 #79756] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:20:14.359702 #79756] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:20:14.850630 #79926] DEBUG -- : [80201] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:20:14.872336 #79926] DEBUG -- : [80201] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:20:14.881645 #79926] DEBUG -- : [80201] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:20:14.884319 #79926] DEBUG -- : [80201] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:20:17.336072 #79926] DEBUG -- : [80201] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T13:20:17.336551 #79926] DEBUG -- : [80201] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:20:18.205269 #79926] DEBUG -- : [80201] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:20:29.717397 #80509] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:20:32.685968 #80716] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:20:33.389635 #80716] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:20:34.050964 #80897] DEBUG -- : [96681] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:21:43.496966 #83088] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:21:44.271576 #83088] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:21:44.852444 #83262] DEBUG -- : [36643] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:21:44.873053 #83262] DEBUG -- : [36643] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:21:44.889142 #83262] DEBUG -- : [36643] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:21:44.891980 #83262] DEBUG -- : [36643] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:21:47.441817 #83262] DEBUG -- : [36643] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:22:06.550659 #84054] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:22:07.450031 #84054] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:22:07.926940 #84218] DEBUG -- : [80066] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:22:07.951748 #84218] DEBUG -- : [80066] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T13:22:07.979206 #84218] DEBUG -- : [80066] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T13:22:07.987804 #84218] DEBUG -- : [80066] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:22:10.721804 #84218] DEBUG -- : [80066] [0mlogin-to-aws-sso-login-profile: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:22:15.891341 #84218] DEBUG -- : [80066] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:22:16.894398 #84218] DEBUG -- : [80066] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T13:22:26.051838 #84902] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:22:26.497783 #84902] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:22:26.852115 #85082] DEBUG -- : [04289] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T13:22:40.594052 #85592] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T13:22:41.355110 #85592] DEBUG -- : [0mno new commits
+D, [2024-08-26T13:22:41.829964 #85769] DEBUG -- : [74988] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:24:47.749346 #40847] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:24:48.312012 #40847] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:24:48.721653 #41014] DEBUG -- : [60163] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:24:48.749761 #41014] DEBUG -- : [60163] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T16:24:48.775943 #41014] DEBUG -- : [60163] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T16:24:48.779383 #41014] DEBUG -- : [60163] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:24:52.151205 #41014] DEBUG -- : [60163] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T16:24:52.151873 #41014] DEBUG -- : [60163] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:24:53.285415 #41014] DEBUG -- : [60163] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T16:25:14.572469 #41978] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:25:15.209099 #41978] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:25:15.813212 #42146] DEBUG -- : [09511] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:25:24.001569 #42529] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:25:24.736627 #42529] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:25:29.634845 #42950] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:25:30.336849 #42950] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:25:30.919434 #43115] DEBUG -- : [20202] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:29:48.327270 #50928] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:29:51.373288 #51153] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:29:52.022275 #51153] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:29:52.812839 #51318] DEBUG -- : [32085] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:29:52.828547 #51318] DEBUG -- : [32085] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T16:29:52.842106 #51318] DEBUG -- : [32085] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T16:29:52.844955 #51318] DEBUG -- : [32085] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:29:55.446015 #51318] DEBUG -- : [32085] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T16:29:55.446550 #51318] DEBUG -- : [32085] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:29:56.340179 #51318] DEBUG -- : [32085] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T16:30:06.240811 #51867] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:30:06.892234 #51867] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:30:07.493124 #52039] DEBUG -- : [08213] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:30:23.352584 #52657] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:30:23.941413 #52657] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:30:29.358748 #53073] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:30:30.067685 #53073] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:30:30.459174 #53241] DEBUG -- : [39576] [0mrunning pods with args: ["-n", "payments-sandbox", "pay-api"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:33:10.567615 #58212] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:33:11.578952 #58212] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:33:11.946778 #58383] DEBUG -- : [26884] [0mrunning aws with args: ["login"] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:33:11.972531 #58383] DEBUG -- : [26884] [0minstall-aws-cli: task met on first try
+D, [2024-08-26T16:33:11.994640 #58383] DEBUG -- : [26884] [0minstall-aws-session-manager-plugin: task met on first try
+D, [2024-08-26T16:33:12.000184 #58383] DEBUG -- : [26884] [0mconfigure-aws-sso: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:33:14.653245 #58383] DEBUG -- : [26884] [0mlogin-to-aws-sso-login-profile: task met on first try
+D, [2024-08-26T16:33:14.653762 #58383] DEBUG -- : [26884] [0mfetch-available-aws-sso-profiles: attempting to meet in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:33:15.797213 #58383] DEBUG -- : [26884] [0mFound AWS SSO accounts: {"accountId"=>"114380232038", "accountName"=>"justworkshr", "emailAddress"=>"eng-accounts-restricted@justworks.com"}, {"accountId"=>"974932714082", "accountName"=>"justworkshr-infra-non-prod", "emailAddress"=>"aws-justworkshr-stage@justworks.com"}, {"accountId"=>"532796455123", "accountName"=>"justworkshr-infra-prod", "emailAddress"=>"aws-tower-prod@justworks.com"}, {"accountId"=>"200033215230", "accountName"=>"justworkshr-infra-sandbox", "emailAddress"=>"aws-infra-sandbox@justworks.com"}, {"accountId"=>"058349771433", "accountName"=>"neonmoose-non-prod", "emailAddress"=>"awsdev+tf@justworkslabs.com"}, {"accountId"=>"515986461949", "accountName"=>"neonmoose-services", "emailAddress"=>"awsservices@justworkslabs.com"}, {"accountId"=>"012187231489", "accountName"=>"neonmoose-testing", "emailAddress"=>"awsstaging@justworkslabs.com"}, {"accountId"=>"926903218535", "accountName"=>"neonmoose-tour", "emailAddress"=>"awstour@justworkslabs.com"}
+D, [2024-08-26T16:33:22.860777 #58854] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:33:23.547797 #58854] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:33:24.010922 #59015] DEBUG -- : [23810] [0mrunning eks with args: [] in /Users/davidyang/Documents/pay
+D, [2024-08-26T16:33:34.910509 #59488] DEBUG -- : [0mcurrent branch is main
+D, [2024-08-26T16:33:35.557293 #59488] DEBUG -- : [0mno new commits
+D, [2024-08-26T16:33:36.196601 #59649] DEBUG -- : [65076] [0mrunning pods with args: ["-n", "payments", "pay-api"] in /Users/davidyang/Documents/pay
