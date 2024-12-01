@@ -122,12 +122,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-# Neonmoose
-export AWS_PROFILE=AWSSSO_NEON_MOOSE-058349771433
-
-export JWL_SERVICE_DIR=~/Documents/Neon
-source ${JWL_SERVICE_DIR}/devops/scripts/services_dotenv.sh
-export GOPRIVATE=github.com/neonmoose/* 
+export JWL_SERVICE_DIR=~/Documents
+export GOPRIVATE=github.com/justworkshr
 
 #For clockwork
 source /opt/secrets/current/dev_env_exports.sh

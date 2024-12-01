@@ -24,6 +24,15 @@ return {
         end,
         desc = "Grep with Args (root dir)",
       },
+      {
+        "<leader>g/",
+        function()
+          require(
+            "telescope.builtin"
+          ).resume()
+        end,
+        desc = "Grep with last search",
+      },
     },
     opts = {
       extensions = {

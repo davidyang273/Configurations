@@ -35,3 +35,10 @@ vim.opt.wrap = true
 
 -- Enable linebreak
 vim.opt.linebreak = true
+
+
+vim.filetype.add({
+  extension = {
+    thor = "ruby",
+  },
+})
