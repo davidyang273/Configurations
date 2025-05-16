@@ -133,7 +133,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
 
-. "/opt/homebrew/opt/asdf/etc/bash_completion.d/asdf.bash"
+# . "/opt/homebrew/opt/asdf/etc/bash_completion.d/asdf.bash"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
